@@ -1,0 +1,102 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite",
+					"sid": 403954179834600,
+					"parameters": {
+						"object": "TiledBackground"
+					}
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite",
+					"sid": 309986146185139,
+					"behaviorType": "8Direction"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-controls",
+					"objectClass": "Sprite",
+					"sid": 298441679775820,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"default-controls": false
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Sprite",
+					"sid": 113370150399588,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"speed": "5000"
+					}
+				}
+			],
+			"sid": 536702367914744
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite",
+					"sid": 641234149293436,
+					"parameters": {
+						"object": "TiledBackground"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite",
+					"sid": 159905482431313,
+					"behaviorType": "8Direction",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-controls",
+					"objectClass": "Sprite",
+					"sid": 607633889074442,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"default-controls": true
+					}
+				}
+			],
+			"sid": 804227819474293,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 226203801835122,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Sprite",
+					"sid": 692624423423536,
+					"behaviorType": "8Direction"
+				}
+			],
+			"sid": 751153660750770
+		}
+	],
+	"sid": 991181321091608
+}
