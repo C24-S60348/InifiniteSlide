@@ -169,6 +169,155 @@
 				}
 			],
 			"sid": 786964141875644
+		},
+		{
+			"eventType": "comment",
+			"text": "cardbawah"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 205832460446040,
+					"parameters": {
+						"object": "CardBawah"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "CardBawah",
+					"sid": 455505332805009,
+					"parameters": {
+						"instance-variable": "isOnOff"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [],
+			"sid": 965746826551095,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CardBawah",
+							"sid": 450710085030573,
+							"parameters": {
+								"instance-variable": "item",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 269144542092863,
+							"parameters": {
+								"layout": "Shop"
+							}
+						}
+					],
+					"sid": 625864038830722
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 957270381321637
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CardBawah",
+							"sid": 953913720741959,
+							"parameters": {
+								"instance-variable": "item",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 711959463722910,
+							"parameters": {
+								"layout": "Main"
+							}
+						}
+					],
+					"sid": 995772154046323
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 852859077733681
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CardBawah",
+							"sid": 501622411013646,
+							"parameters": {
+								"instance-variable": "item",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 130236725576346,
+							"parameters": {
+								"layout": "Tools"
+							}
+						}
+					],
+					"sid": 232862510100295
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 124696657680613
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CardBawah",
+							"sid": 675616705529683,
+							"parameters": {
+								"instance-variable": "item",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 340635972364980,
+							"parameters": {
+								"layout": "Map"
+							}
+						}
+					],
+					"sid": 360111372894140
+				}
+			]
 		}
 	],
 	"sid": 164528087870957

@@ -93,6 +93,22 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xcjmpr8czsl",
@@ -122,7 +138,11 @@
 			"Joystick2",
 			"TiledBackground4",
 			"BtnBack",
-			"Sprite8"
+			"Sprite9",
+			"garisan",
+			"CardBawah",
+			"dragger",
+			"tutupBG"
 		],
 		"subfolders": []
 	},
