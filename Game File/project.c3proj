@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -142,7 +150,14 @@
 			"garisan",
 			"CardBawah",
 			"dragger",
-			"tutupBG"
+			"tutupBG",
+			"TiledBackground5",
+			"Sprite8",
+			"Sprite10",
+			"Tilemap",
+			"Tilemap2",
+			"Tilemap3",
+			"Tilemap4"
 		],
 		"subfolders": []
 	},
@@ -158,7 +173,8 @@
 			"Main",
 			"Map",
 			"Tools",
-			"Shop"
+			"Shop",
+			"Layout 2"
 		],
 		"subfolders": []
 	},
@@ -167,7 +183,8 @@
 			"Event sheet 1",
 			"Main",
 			"Map",
-			"ButtonClick"
+			"ButtonClick",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
