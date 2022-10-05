@@ -189,7 +189,16 @@
 			"btnUse",
 			"tambahItem",
 			"Pets",
-			"Characterss"
+			"Characterss",
+			"box",
+			"flower1",
+			"flower2",
+			"cat",
+			"start",
+			"brick",
+			"flower3",
+			"space",
+			"rocket"
 		],
 		"subfolders": []
 	},
