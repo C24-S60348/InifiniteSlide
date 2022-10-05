@@ -174,9 +174,21 @@
 			"Audio",
 			"Sprite11",
 			"kucing1",
+<<<<<<< HEAD
+			"kucing2",
+			"Sprite2",
+			"Sprite12",
+			"Sprite13",
+			"hearts",
+			"coins"
+=======
 			"kucing2"
 =======
 			"tutupBG"
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+>>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
 >>>>>>> Stashed changes
 		],
 		"subfolders": []
@@ -193,7 +205,17 @@
 			"Main",
 			"Map",
 			"Tools",
+<<<<<<< Updated upstream
 			"Shop"
+=======
+<<<<<<< HEAD
+			"Shop",
+			"Layout 2",
+			"home"
+=======
+			"Shop"
+>>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
@@ -202,7 +224,17 @@
 			"Event sheet 1",
 			"Main",
 			"Map",
+<<<<<<< Updated upstream
 			"ButtonClick"
+=======
+<<<<<<< HEAD
+			"ButtonClick",
+			"Event sheet 2",
+			"Event sheet 3"
+=======
+			"ButtonClick"
+>>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
@@ -212,7 +244,48 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Appear.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 786381612729433,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "click2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 386738705547204,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "sliding(walk).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 689708702600019,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "startgame.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 568644276134024,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "success.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 945042386633024,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
