@@ -170,25 +170,12 @@
 			"Audio",
 			"Sprite11",
 			"kucing1",
-<<<<<<< HEAD
 			"kucing2",
 			"Sprite2",
 			"Sprite12",
 			"Sprite13",
 			"hearts",
 			"coins"
-=======
-			"kucing2"
-<<<<<<< HEAD
-=======
-			"tutupBG"
->>>>>>> Stashed changes
-<<<<<<< Updated upstream
-=======
->>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
->>>>>>> Stashed changes
-=======
->>>>>>> 2479d74e0eab7228457303254ab5bbafd8396f31
 		],
 		"subfolders": []
 	},
@@ -204,22 +191,9 @@
 			"Main",
 			"Map",
 			"Tools",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-			"Shop"
-=======
-<<<<<<< HEAD
 			"Shop",
 			"Layout 2",
 			"home"
-=======
-			"Shop"
->>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
->>>>>>> Stashed changes
-=======
-			"Shop",
-			"Layout 2"
->>>>>>> 2479d74e0eab7228457303254ab5bbafd8396f31
 		],
 		"subfolders": []
 	},
@@ -228,22 +202,9 @@
 			"Event sheet 1",
 			"Main",
 			"Map",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-			"ButtonClick"
-=======
-<<<<<<< HEAD
 			"ButtonClick",
 			"Event sheet 2",
 			"Event sheet 3"
-=======
-			"ButtonClick"
->>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
->>>>>>> Stashed changes
-=======
-			"ButtonClick",
-			"Event sheet 2"
->>>>>>> 2479d74e0eab7228457303254ab5bbafd8396f31
 		],
 		"subfolders": []
 	},
