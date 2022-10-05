@@ -63,7 +63,6 @@
 			"bundled": false
 		},
 		{
-<<<<<<< Updated upstream
 			"type": "plugin",
 			"id": "Tilemap",
 			"name": "Tilemap",
@@ -80,8 +79,6 @@
 			"bundled": false
 		},
 		{
-=======
->>>>>>> Stashed changes
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -161,7 +158,6 @@
 			"garisan",
 			"CardBawah",
 			"dragger",
-<<<<<<< Updated upstream
 			"tutupBG",
 			"TiledBackground5",
 			"Sprite8",
@@ -183,6 +179,7 @@
 			"coins"
 =======
 			"kucing2"
+<<<<<<< HEAD
 =======
 			"tutupBG"
 >>>>>>> Stashed changes
@@ -190,6 +187,8 @@
 =======
 >>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
 >>>>>>> Stashed changes
+=======
+>>>>>>> 2479d74e0eab7228457303254ab5bbafd8396f31
 		],
 		"subfolders": []
 	},
@@ -205,6 +204,7 @@
 			"Main",
 			"Map",
 			"Tools",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			"Shop"
 =======
@@ -216,6 +216,10 @@
 			"Shop"
 >>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
 >>>>>>> Stashed changes
+=======
+			"Shop",
+			"Layout 2"
+>>>>>>> 2479d74e0eab7228457303254ab5bbafd8396f31
 		],
 		"subfolders": []
 	},
@@ -224,6 +228,7 @@
 			"Event sheet 1",
 			"Main",
 			"Map",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			"ButtonClick"
 =======
@@ -235,6 +240,10 @@
 			"ButtonClick"
 >>>>>>> 068af1f454b7a13df87c2976db035e6ff4cd8d12
 >>>>>>> Stashed changes
+=======
+			"ButtonClick",
+			"Event sheet 2"
+>>>>>>> 2479d74e0eab7228457303254ab5bbafd8396f31
 		],
 		"subfolders": []
 	},
