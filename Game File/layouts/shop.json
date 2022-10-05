@@ -44,7 +44,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 184,
+					"uid": 207,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -73,7 +73,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 183,
+					"uid": 202,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -486,7 +486,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 179,
+					"uid": 199,
 					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
@@ -539,7 +539,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 180,
+					"uid": 206,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -577,7 +577,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 181,
+					"uid": 200,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -615,7 +615,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 182,
+					"uid": 201,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -644,7 +644,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 185,
+					"uid": 203,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -673,7 +673,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 186,
+					"uid": 204,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -711,7 +711,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 187,
+					"uid": 205,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -749,7 +749,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 188,
+					"uid": 208,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -818,7 +818,22 @@
 					},
 					"uid": 190,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 233,
 						"y": 538,
@@ -847,7 +862,22 @@
 					},
 					"uid": 191,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 481,
 						"y": 531,
@@ -876,7 +906,22 @@
 					},
 					"uid": 192,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 221,
 						"y": 704,
@@ -905,7 +950,22 @@
 					},
 					"uid": 193,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 476,
 						"y": 707,
@@ -934,7 +994,22 @@
 					},
 					"uid": 194,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 139,
 						"y": 980,
@@ -963,7 +1038,22 @@
 					},
 					"uid": 195,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 301,
 						"y": 980,
@@ -992,7 +1082,22 @@
 					},
 					"uid": 196,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 456,
 						"y": 980,
@@ -1021,7 +1126,22 @@
 					},
 					"uid": 197,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 603,
 						"y": 980,
