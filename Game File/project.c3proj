@@ -63,7 +63,6 @@
 			"bundled": false
 		},
 		{
-<<<<<<< Updated upstream
 			"type": "plugin",
 			"id": "Tilemap",
 			"name": "Tilemap",
@@ -80,8 +79,6 @@
 			"bundled": false
 		},
 		{
-=======
->>>>>>> Stashed changes
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -161,7 +158,6 @@
 			"garisan",
 			"CardBawah",
 			"dragger",
-<<<<<<< Updated upstream
 			"tutupBG",
 			"TiledBackground5",
 			"Sprite8",
@@ -175,9 +171,6 @@
 			"Sprite11",
 			"kucing1",
 			"kucing2"
-=======
-			"tutupBG"
->>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
@@ -193,7 +186,8 @@
 			"Main",
 			"Map",
 			"Tools",
-			"Shop"
+			"Shop",
+			"Layout 2"
 		],
 		"subfolders": []
 	},
@@ -202,7 +196,8 @@
 			"Event sheet 1",
 			"Main",
 			"Map",
-			"ButtonClick"
+			"ButtonClick",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
