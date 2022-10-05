@@ -132,7 +132,7 @@
 		"items": [
 			"TiledBackground",
 			"Sprite",
-			"Sprite2",
+			"solidWall",
 			"Keyboard",
 			"TiledBackground2",
 			"TiledBackground3",
@@ -167,7 +167,10 @@
 			"Tilemap3",
 			"Tilemap4",
 			"bgGame",
-			"Audio"
+			"Audio",
+			"Sprite11",
+			"kucing1",
+			"kucing2"
 		],
 		"subfolders": []
 	},

@@ -93,7 +93,7 @@
 					"objectClass": "Sprite",
 					"sid": 226203801835122,
 					"parameters": {
-						"object": "Sprite2"
+						"object": "solidWall"
 					}
 				}
 			],
@@ -649,6 +649,34 @@
 				}
 			],
 			"sid": 952828337825739
+		},
+		{
+			"eventType": "comment",
+			"text": "menang"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 929553969149343,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 814082257072861,
+					"parameters": {
+						"layout": "Main"
+					}
+				}
+			],
+			"sid": 847882280255458
 		}
 	],
 	"sid": 991181321091608
