@@ -7,27 +7,28 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "StartButton2",
+					"type": "tutupBG",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 1,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
 					},
 					"uid": 69,
-					"instanceVariables": {
-						"OnOff": false,
-						"item": 1
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 107,
-						"y": 1225,
-						"width": 138.58526670005008,
-						"height": 57.776112079846776,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 0,
+						"y": 1181,
+						"width": 720,
+						"height": 100,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -39,25 +40,25 @@
 					}
 				},
 				{
-					"type": "StartButton2",
+					"type": "CardBawah",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 1,
+						"initial-animation": "Unselect",
+						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 70,
 					"instanceVariables": {
-						"OnOff": false,
-						"item": 2
+						"item": 1,
+						"isOnOff": false
 					},
 					"behaviors": {},
 					"world": {
-						"x": 275,
-						"y": 1225,
-						"width": 138.58526670005008,
-						"height": 57.776112079846776,
+						"x": 93,
+						"y": 1254,
+						"width": 142,
+						"height": 107,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -71,31 +72,37 @@
 					}
 				},
 				{
-					"type": "StartButton2",
+					"type": "SpriteFont",
 					"properties": {
+						"text": "SHOP",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 1,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
 					"uid": 71,
-					"instanceVariables": {
-						"OnOff": true,
-						"item": 3
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 451,
-						"y": 1225,
-						"width": 138.58526670005008,
-						"height": 57.776112079846776,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 23,
+						"y": 1227,
+						"width": 143,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
 						"color": [
-							1,
-							1,
-							1,
+							0,
+							0,
+							0,
 							1
 						],
 						"angle": 0,
@@ -103,31 +110,209 @@
 					}
 				},
 				{
-					"type": "StartButton2",
+					"type": "CardBawah",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 1,
+						"initial-animation": "Unselect",
+						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 72,
 					"instanceVariables": {
-						"OnOff": false,
-						"item": 4
+						"item": 2,
+						"isOnOff": false
 					},
 					"behaviors": {},
 					"world": {
-						"x": 618,
-						"y": 1225,
-						"width": 138.58526670005008,
-						"height": 57.776112079846776,
+						"x": 264,
+						"y": 1254,
+						"width": 142,
+						"height": 107,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "HOME",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 120,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 195,
+						"y": 1229,
+						"width": 143,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CardBawah",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Select",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 121,
+					"instanceVariables": {
+						"item": 3,
+						"isOnOff": true
+					},
+					"behaviors": {},
+					"world": {
+						"x": 442,
+						"y": 1254,
+						"width": 143,
+						"height": 107,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "TOOLS",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 122,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 369,
+						"y": 1232,
+						"width": 143,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CardBawah",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Unselect",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 123,
+					"instanceVariables": {
+						"item": 4,
+						"isOnOff": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 619,
+						"y": 1254,
+						"width": 142,
+						"height": 107,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "MAP",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 124,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 549,
+						"y": 1230,
+						"width": 143,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
 							1
 						],
 						"angle": 0,

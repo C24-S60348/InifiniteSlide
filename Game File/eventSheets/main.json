@@ -80,6 +80,34 @@
 				}
 			],
 			"sid": 545301776426366
+		},
+		{
+			"eventType": "comment",
+			"text": "start - bg music"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 310181672310405
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 330099096392706,
+					"parameters": {
+						"audio-file": "backgroundmusic",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"bg\""
+					}
+				}
+			],
+			"sid": 890712258926810
 		}
 	],
 	"sid": 621771088166115

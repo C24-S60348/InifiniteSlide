@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -157,7 +165,9 @@
 			"Tilemap",
 			"Tilemap2",
 			"Tilemap3",
-			"Tilemap4"
+			"Tilemap4",
+			"bgGame",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -198,7 +208,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "backgroundmusic.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 241142658607028,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
