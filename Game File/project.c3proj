@@ -175,7 +175,8 @@
 			"Sprite12",
 			"Sprite13",
 			"hearts",
-			"coins"
+			"coins",
+			"appName"
 		],
 		"subfolders": []
 	},
