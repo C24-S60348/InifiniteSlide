@@ -125,6 +125,14 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xcjmpr8czsl",
@@ -175,7 +183,12 @@
 			"Sprite12",
 			"Sprite13",
 			"hearts",
-			"coins"
+			"coins",
+			"flashlight",
+			"btnUse",
+			"tambahItem",
+			"Pets",
+			"Characterss"
 		],
 		"subfolders": []
 	},
