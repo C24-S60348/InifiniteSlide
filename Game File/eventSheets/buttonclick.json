@@ -2,175 +2,6 @@
 	"name": "ButtonClick",
 	"events": [
 		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 521037771976578,
-					"parameters": {
-						"object": "StartButton2"
-					}
-				},
-				{
-					"id": "is-boolean-instance-variable-set",
-					"objectClass": "StartButton2",
-					"sid": 619736378393728,
-					"parameters": {
-						"instance-variable": "OnOff"
-					},
-					"isInverted": true
-				}
-			],
-			"actions": [],
-			"sid": 621757894330853,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "StartButton2",
-							"sid": 692396842684264,
-							"parameters": {
-								"instance-variable": "item",
-								"comparison": 0,
-								"value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 554057051039811,
-							"parameters": {
-								"layout": "Shop"
-							}
-						}
-					],
-					"sid": 441663714831729
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 901360258825096
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "StartButton2",
-							"sid": 599930766529949,
-							"parameters": {
-								"instance-variable": "item",
-								"comparison": 0,
-								"value": "2"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 457174200832223,
-							"parameters": {
-								"layout": "Main"
-							}
-						}
-					],
-					"sid": 583600389696655
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 708533427984075
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "StartButton2",
-							"sid": 335674708604059,
-							"parameters": {
-								"instance-variable": "item",
-								"comparison": 0,
-								"value": "3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 318052051992245,
-							"parameters": {
-								"layout": "Tools"
-							}
-						}
-					],
-					"sid": 367021144535034
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 508242512408643
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "StartButton2",
-							"sid": 126414597666712,
-							"parameters": {
-								"instance-variable": "item",
-								"comparison": 0,
-								"value": "4"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 954198909739556,
-							"parameters": {
-								"layout": "Map"
-							}
-						}
-					],
-					"sid": 155085577131184
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-boolean-instance-variable-set",
-					"objectClass": "StartButton2",
-					"sid": 352212749433996,
-					"parameters": {
-						"instance-variable": "OnOff"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-speed",
-					"objectClass": "StartButton2",
-					"sid": 656360316172816,
-					"parameters": {
-						"speed": "5"
-					}
-				}
-			],
-			"sid": 786964141875644
-		},
-		{
 			"eventType": "comment",
 			"text": "cardbawah"
 		},
@@ -247,9 +78,9 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 711959463722910,
+							"sid": 207237012734216,
 							"parameters": {
-								"layout": "Main"
+								"layout": "home"
 							}
 						}
 					],
@@ -318,6 +149,30 @@
 					"sid": 360111372894140
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 827467978805999,
+					"parameters": {
+						"object": "play"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 561079351238609,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 199214284037715
 		}
 	],
 	"sid": 164528087870957
