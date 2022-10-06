@@ -1,0 +1,63 @@
+{
+	"name": "play",
+	"plugin-id": "Sprite",
+	"sid": 259003613030245,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 838361971409864
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 3302,
+						"height": 1302,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6754049,
+						"collisionPoly": {
+							"points": [
+								0.030587522713506964,
+								0.07757296466973887,
+								0.5,
+								0.0007680491551459293,
+								0.9691096305269533,
+								0.07757296466973887,
+								0.9993943064809206,
+								0.5,
+								0.9691096305269533,
+								0.9216589861751152,
+								0.5,
+								0.9984639016897081,
+								0.030587522713506964,
+								0.9216589861751152,
+								0.0003028467595396729,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 355620262589004,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
