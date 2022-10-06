@@ -1,5 +1,10 @@
 {
 	"name": "Event sheet 3",
-	"events": [],
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "ButtonClick"
+		}
+	],
 	"sid": 904734705936931
 }
