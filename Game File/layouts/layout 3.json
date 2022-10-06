@@ -180,7 +180,9 @@
 						"live-preview": false
 					},
 					"uid": 222,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": "home"
+					},
 					"behaviors": {},
 					"world": {
 						"x": 197,

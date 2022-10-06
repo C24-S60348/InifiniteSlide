@@ -180,7 +180,9 @@
 						"live-preview": false
 					},
 					"uid": 5,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": "Layout 3"
+					},
 					"behaviors": {},
 					"world": {
 						"x": 256,

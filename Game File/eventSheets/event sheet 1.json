@@ -260,95 +260,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-back-button",
-					"objectClass": "Browser",
-					"sid": 489801303778809
-				}
-			],
-			"actions": [],
-			"sid": 348136716647339,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 757419862737773,
-							"parameters": {
-								"variable": "countExit",
-								"comparison": 0,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "alert",
-							"objectClass": "Browser",
-							"sid": 802404523404673,
-							"parameters": {
-								"message": "\"Press again to exit level\""
-							}
-						},
-						{
-							"id": "set-eventvar-value",
-							"objectClass": "System",
-							"sid": 871049166310366,
-							"parameters": {
-								"variable": "countExit",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 211718282842042
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 882639705802906
-						},
-						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 259696001001768,
-							"parameters": {
-								"variable": "countExit",
-								"comparison": 0,
-								"value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 718329158325074,
-							"parameters": {
-								"layout": "Main"
-							}
-						},
-						{
-							"id": "set-eventvar-value",
-							"objectClass": "System",
-							"sid": 274511380362186,
-							"parameters": {
-								"variable": "countExit",
-								"value": "0"
-							}
-						}
-					],
-					"sid": 824294305233176
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
 					"sid": 403591120386019,
@@ -357,85 +268,26 @@
 					}
 				}
 			],
-			"actions": [],
-			"sid": 566439722831547,
-			"children": [
+			"actions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 360114104902560,
-							"parameters": {
-								"variable": "countExit",
-								"comparison": 0,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "alert",
-							"objectClass": "Browser",
-							"sid": 812176242239931,
-							"parameters": {
-								"message": "\"Press again to exit level\""
-							}
-						},
-						{
-							"id": "set-eventvar-value",
-							"objectClass": "System",
-							"sid": 282692575135963,
-							"parameters": {
-								"variable": "countExit",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 952702396646930
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 921857282822150,
+					"parameters": {
+						"layout": "Main"
+					}
 				},
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 957722950804490
-						},
-						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 267348754482107,
-							"parameters": {
-								"variable": "countExit",
-								"comparison": 0,
-								"value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 345068125159955,
-							"parameters": {
-								"layout": "Main"
-							}
-						},
-						{
-							"id": "set-eventvar-value",
-							"objectClass": "System",
-							"sid": 593641177573046,
-							"parameters": {
-								"variable": "countExit",
-								"value": "0"
-							}
-						}
-					],
-					"sid": 760769119151768
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 942018201689223,
+					"parameters": {
+						"variable": "countExit",
+						"value": "0"
+					}
 				}
-			]
+			],
+			"sid": 566439722831547
 		},
 		{
 			"eventType": "block",
@@ -668,11 +520,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 814082257072861,
+					"sid": 904368918147476,
 					"parameters": {
-						"layout": "Main"
+						"layout": "Sprite3.namaLevel"
 					}
 				}
 			],
