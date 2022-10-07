@@ -185,6 +185,10 @@
 			"sid": 199214284037715
 		},
 		{
+			"eventType": "comment",
+			"text": "set money & character animatino"
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -209,9 +213,315 @@
 					"parameters": {
 						"text": "money"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 423170918124662,
+					"parameters": {
+						"animation": "characterName",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 614380609208080
+		},
+		{
+			"eventType": "comment",
+			"text": "pilih character"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 618117496275268,
+					"parameters": {
+						"object": "Characterss"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 337315739874393,
+					"parameters": {
+						"variable": "characterName",
+						"value": "Characterss.namaOrang"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "messagebox",
+					"sid": 564781143060538,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "messagebox",
+					"sid": 299724546791427,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "messagebox",
+					"sid": 306057400191783,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 804443032131685,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "messagebox",
+					"sid": 194328350470873,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 927081472309078
+		},
+		{
+			"eventType": "comment",
+			"text": "pilih pets&locked"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 783509087723077,
+					"parameters": {
+						"object": "Pets"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Pets",
+					"sid": 273474253881196,
+					"parameters": {
+						"instance-variable": "isLocked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "messagebox",
+					"sid": 890857280853221,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "messagebox",
+					"sid": 942787551757912,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "messagebox",
+					"sid": 590617309011537,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 116877527235727,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "messagebox",
+					"sid": 903642435103397,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 321359180709468
+		},
+		{
+			"eventType": "comment",
+			"text": "MAPPPP"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "dragger",
+					"sid": 740017579196833,
+					"parameters": {
+						"comparison": 2,
+						"y-co-ordinate": "-562"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "dragger",
+					"sid": 810712736622910,
+					"parameters": {
+						"y": "-562"
+					}
+				}
+			],
+			"sid": 313432111927656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "dragger",
+					"sid": 727794828401107,
+					"parameters": {
+						"comparison": 4,
+						"y-co-ordinate": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "dragger",
+					"sid": 978497234971501,
+					"parameters": {
+						"y": "0"
+					}
+				}
+			],
+			"sid": 427993208783717
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 536978846980818
+				}
+			],
+			"actions": [],
+			"sid": 426167171952851,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 562607843112334,
+							"parameters": {
+								"object": "garisan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "garisan",
+							"sid": 616878556896976,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "dragger",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 220828205486508
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 128747251447745,
+							"parameters": {
+								"object": "Sprite9"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "Sprite9",
+							"sid": 526485462124794,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "dragger",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 983662969772357
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 761084346759688,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 307393527680058,
+					"parameters": {
+						"layout": "Sprite9.namaLevel"
+					}
+				}
+			],
+			"sid": 986383417210221
 		}
 	],
 	"sid": 164528087870957

@@ -133,6 +133,14 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xcjmpr8czsl",
@@ -217,8 +225,17 @@
 			"bushAlt2",
 			"Sprite13",
 			"Sprite14",
+<<<<<<< HEAD
 			"Sprite15",
 			"solidWall2"
+=======
+<<<<<<< Updated upstream
+			"Sprite15",
+			"messagebox"
+=======
+			"Sprite15"
+>>>>>>> Stashed changes
+>>>>>>> 7f91b1fbcd9f2f5e60ce505ca2362de41c9a4f2c
 		],
 		"subfolders": []
 	},

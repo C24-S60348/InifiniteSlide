@@ -12,6 +12,16 @@
 			"sid": 274068924583622
 		},
 		{
+			"eventType": "variable",
+			"name": "characterName",
+			"type": "string",
+			"initialValue": "seeChar",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 282244118019351
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -106,28 +116,6 @@
 				}
 			],
 			"sid": 751153660750770
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite",
-					"sid": 487099214045654,
-					"parameters": {
-						"object": "Sprite3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "stop",
-					"objectClass": "Sprite",
-					"sid": 788968664407388,
-					"behaviorType": "8Direction"
-				}
-			],
-			"sid": 623061459685484
 		},
 		{
 			"eventType": "block",
@@ -529,6 +517,94 @@
 				}
 			],
 			"sid": 847882280255458
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 106998500935256
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "SpriteFont",
+					"sid": 970219722656603,
+					"parameters": {
+						"instance-variable": "isMoney"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 301139817630837,
+					"parameters": {
+						"animation": "characterName",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SpriteFont",
+					"sid": 990090318161967,
+					"parameters": {
+						"text": "money"
+					}
+				}
+			],
+			"sid": 854236311650622
+		},
+		{
+			"eventType": "comment",
+			"text": "dapat coins"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 857980155857373,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "SpriteFont",
+					"sid": 947120375928375,
+					"parameters": {
+						"instance-variable": "isMoney"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite4",
+					"sid": 840971450318830
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 958222341375081,
+					"parameters": {
+						"variable": "money",
+						"value": "10"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SpriteFont",
+					"sid": 556016580049100,
+					"parameters": {
+						"text": "money"
+					}
+				}
+			],
+			"sid": 693001459905879
 		}
 	],
 	"sid": 991181321091608

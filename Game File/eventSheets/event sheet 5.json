@@ -111,28 +111,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "ssCharacter",
-					"sid": 617654791163767,
-					"parameters": {
-						"object": "Sprite3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "stop",
-					"objectClass": "ssCharacter",
-					"sid": 932028674613840,
-					"behaviorType": "8Direction"
-				}
-			],
-			"sid": 116649338479845
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "is-moving",
 					"objectClass": "ssCharacter",
 					"sid": 669409353364843,

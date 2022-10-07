@@ -2022,7 +2022,7 @@
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "seeChar",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2066,6 +2066,7 @@
 					}
 				},
 				{
+<<<<<<< HEAD
 					"type": "solidWall",
 					"properties": {
 						"initially-visible": true,
@@ -2125,6 +2126,26 @@
 						"y": 2368,
 						"width": 125.07426988198318,
 						"height": 125.07426988198317,
+=======
+					"type": "Sprite3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 351,
+					"instanceVariables": {
+						"namaLevel": "Layout 4"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1152,
+						"y": 2368,
+						"width": 107.98178969583668,
+						"height": 111.10253466334947,
+>>>>>>> 7f91b1fbcd9f2f5e60ce505ca2362de41c9a4f2c
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2138,6 +2159,7 @@
 					}
 				},
 				{
+<<<<<<< HEAD
 					"type": "solidWall",
 					"properties": {
 						"initially-visible": true,
@@ -2251,11 +2273,19 @@
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
 						"initial-frame": 8,
+=======
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+>>>>>>> 7f91b1fbcd9f2f5e60ce505ca2362de41c9a4f2c
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 364,
 					"instanceVariables": {},
+<<<<<<< HEAD
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -2377,6 +2407,14 @@
 						"y": 704,
 						"width": 125.07426988198318,
 						"height": 125.07426988198317,
+=======
+					"behaviors": {},
+					"world": {
+						"x": 192,
+						"y": 2368,
+						"width": 37.58886853685212,
+						"height": 37.58886853685212,
+>>>>>>> 7f91b1fbcd9f2f5e60ce505ca2362de41c9a4f2c
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2479,8 +2517,8 @@
 						}
 					},
 					"world": {
-						"x": 573,
-						"y": 46,
+						"x": 731,
+						"y": -70,
 						"width": 64,
 						"height": 64,
 						"originX": 0.5,
@@ -2768,7 +2806,47 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "SpriteFont",
+					"properties": {
+						"text": "25",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 368,
+					"instanceVariables": {
+						"isMoney": true
+					},
+					"behaviors": {},
+					"world": {
+						"x": 621,
+						"y": 35,
+						"width": 93,
+						"height": 72,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2776,16 +2854,21 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 351,
-					"instanceVariables": {
-						"namaLevel": "Layout 4"
-					},
+					"uid": 369,
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
+<<<<<<< HEAD
 						"x": -320,
 						"y": 2112,
 						"width": 107.98178969583668,
 						"height": 111.10253466334947,
+=======
+						"x": 584,
+						"y": 48,
+						"width": 66.58886853685212,
+						"height": 74.58886853685212,
+>>>>>>> 7f91b1fbcd9f2f5e60ce505ca2362de41c9a4f2c
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
