@@ -225,8 +225,12 @@
 			"bushAlt2",
 			"Sprite13",
 			"Sprite14",
+<<<<<<< Updated upstream
 			"Sprite15",
 			"messagebox"
+=======
+			"Sprite15"
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
