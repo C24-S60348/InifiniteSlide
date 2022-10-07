@@ -525,6 +525,14 @@
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 106998500935256
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "SpriteFont",
+					"sid": 970219722656603,
+					"parameters": {
+						"instance-variable": "isMoney"
+					}
 				}
 			],
 			"actions": [
@@ -535,6 +543,14 @@
 					"parameters": {
 						"animation": "characterName",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SpriteFont",
+					"sid": 990090318161967,
+					"parameters": {
+						"text": "money"
 					}
 				}
 			],
