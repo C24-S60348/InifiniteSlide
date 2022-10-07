@@ -4,18 +4,7 @@
 	"sid": 269018371381054,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "scrollto",
-			"name": "ScrollTo",
-			"sid": 844916826007794
-		},
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 669115963621711
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [

@@ -1,41 +1,47 @@
 {
-	"name": "tilesyak",
+	"name": "Sprite19",
 	"plugin-id": "Sprite",
-	"sid": 412823158356242,
+	"sid": 936595744234816,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 860507851661517
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1218,
-						"height": 1218,
+						"width": 64,
+						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 566772,
+						"imageSpriteId": 340653,
 						"collisionPoly": {
 							"points": [
-								0.0008210180623973727,
-								0.0008210180623973727,
+								0,
+								0,
 								0.5,
-								0.0008210180623973727,
-								0.9983579638752053,
-								0.0008210180623973727,
-								0.9983579638752053,
+								0,
+								0.9375,
+								0,
+								0.9375,
 								0.5,
-								0.9983579638752053,
-								0.9983579638752053,
+								0.9375,
+								0.9375,
 								0.5,
-								0.9983579638752053,
-								0.0008210180623973727,
-								0.9983579638752053,
-								0.0008210180623973727,
+								0.9375,
+								0,
+								0.9375,
+								0,
 								0.5
 							]
 						},
@@ -43,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 998659428612850,
+				"sid": 510932570827056,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

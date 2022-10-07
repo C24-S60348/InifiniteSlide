@@ -112,9 +112,7 @@
 						"origin": "top-left"
 					},
 					"uid": 154,
-					"instanceVariables": {
-						"isMoney": true
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 607,
@@ -472,9 +470,7 @@
 						"origin": "top-left"
 					},
 					"uid": 216,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 240,
@@ -588,9 +584,7 @@
 						"origin": "top-left"
 					},
 					"uid": 180,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 23,
@@ -660,9 +654,7 @@
 						"origin": "top-left"
 					},
 					"uid": 182,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 195,
@@ -732,9 +724,7 @@
 						"origin": "top-left"
 					},
 					"uid": 185,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 369,
@@ -804,9 +794,7 @@
 						"origin": "top-left"
 					},
 					"uid": 187,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 549,
@@ -864,5 +852,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ButtonClick"
+	"eventSheet": "Event sheet 3"
 }

@@ -1975,6 +1975,53 @@
 					}
 				},
 				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 420,
+					"instanceVariables": {},
+					"behaviors": {
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"8Direction": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-4",
+								"set-angle": "no",
+								"allow-sliding": true,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 160,
+						"y": 160,
+						"width": 78.43594481349251,
+						"height": 89.11480258181123,
+						"originX": 0.34375,
+						"originY": 0.390625,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "solidWall",
 					"properties": {
 						"initially-visible": true,
@@ -2675,9 +2722,7 @@
 						"origin": "top-left"
 					},
 					"uid": 447,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 129,

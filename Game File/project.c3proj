@@ -64,16 +64,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
+			"id": "Audio",
+			"name": "Audio",
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
@@ -178,10 +178,6 @@
 			"TiledBackground5",
 			"Sprite8",
 			"Sprite10",
-			"Tilemap",
-			"Tilemap2",
-			"Tilemap3",
-			"Tilemap4",
 			"bgGame",
 			"Audio",
 			"Sprite11",
@@ -226,6 +222,14 @@
 			"Sprite13",
 			"Sprite14",
 			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"Tilemap",
+			"Tilemap2",
+			"Tilemap3",
+			"Sprite19",
+			"Tilemap4",
 			"messagebox"
 		],
 		"subfolders": []
