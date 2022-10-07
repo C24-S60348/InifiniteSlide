@@ -214,7 +214,10 @@
 			"towerAlt",
 			"treeDead",
 			"pyramid",
-			"bushAlt2"
+			"bushAlt2",
+			"Sprite13",
+			"Sprite14",
+			"Sprite15"
 		],
 		"subfolders": []
 	},
