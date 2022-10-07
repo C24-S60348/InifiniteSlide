@@ -2,6 +2,16 @@
 	"name": "ButtonClick",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "money",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 378903899986686
+		},
+		{
 			"eventType": "comment",
 			"text": "cardbawah"
 		},

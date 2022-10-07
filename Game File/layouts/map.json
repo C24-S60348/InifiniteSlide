@@ -154,12 +154,14 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
-						"initial-frame": 0,
+						"initial-frame": 7,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 80,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": "Layout 1"
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -168,10 +170,10 @@
 						}
 					},
 					"world": {
-						"x": 205,
-						"y": 265,
-						"width": 183.56133337472136,
-						"height": 183.56133337472136,
+						"x": 190,
+						"y": 262,
+						"width": 184.12334966522636,
+						"height": 182.9797263753802,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -189,12 +191,14 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
-						"initial-frame": 1,
+						"initial-frame": 8,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 81,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": "Layout 3"
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -203,10 +207,10 @@
 						}
 					},
 					"world": {
-						"x": 550,
-						"y": 485,
-						"width": 183.561333,
-						"height": 183.561333,
+						"x": 560,
+						"y": 478,
+						"width": 187.5004641304871,
+						"height": 187.5004641304871,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -380,12 +384,14 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
-						"initial-frame": 2,
+						"initial-frame": 9,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 82,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": "Layout 4"
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -394,10 +400,10 @@
 						}
 					},
 					"world": {
-						"x": 200,
-						"y": 703,
-						"width": 183.561333,
-						"height": 183.561333,
+						"x": 181,
+						"y": 706,
+						"width": 197.69452441014772,
+						"height": 196.46660810946355,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -420,7 +426,9 @@
 						"live-preview": false
 					},
 					"uid": 93,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": ""
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -455,7 +463,9 @@
 						"live-preview": false
 					},
 					"uid": 94,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": ""
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -490,7 +500,9 @@
 						"live-preview": false
 					},
 					"uid": 95,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": ""
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -525,7 +537,9 @@
 						"live-preview": false
 					},
 					"uid": 96,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"namaLevel": ""
+					},
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -634,7 +648,9 @@
 						"origin": "top-left"
 					},
 					"uid": 86,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 23,
@@ -704,7 +720,9 @@
 						"origin": "top-left"
 					},
 					"uid": 88,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 195,
@@ -774,7 +792,9 @@
 						"origin": "top-left"
 					},
 					"uid": 90,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 369,
@@ -844,7 +864,9 @@
 						"origin": "top-left"
 					},
 					"uid": 92,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 549,
@@ -915,7 +937,9 @@
 						"origin": "top-left"
 					},
 					"uid": 78,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 151,

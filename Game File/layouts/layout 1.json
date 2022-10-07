@@ -3440,7 +3440,9 @@
 						"origin": "top-left"
 					},
 					"uid": 176,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 129,

@@ -3,7 +3,14 @@
 	"plugin-id": "Spritefont2",
 	"sid": 526470053453835,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "isMoney",
+			"type": "boolean",
+			"desc": "",
+			"sid": 101309560525794
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {

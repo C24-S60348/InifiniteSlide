@@ -2,12 +2,22 @@
 	"name": "Event sheet 5",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "countExit2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 923397308072910
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "ssCharacter",
-					"sid": 472910912164622,
+					"sid": 806720154565794,
 					"parameters": {
 						"object": "tapak"
 					}
@@ -277,7 +287,177 @@
 				}
 			],
 			"actions": [],
-			"sid": 739121522808282
+			"sid": 510595237039880,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "up"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Joystick2",
+							"sid": 516932329958780,
+							"parameters": {
+								"instance-variable": "key",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 755515326171219,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						}
+					],
+					"sid": 595625920799800
+				},
+				{
+					"eventType": "comment",
+					"text": "kanan"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Joystick2",
+							"sid": 574842573326183,
+							"parameters": {
+								"instance-variable": "key",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 914926699854527,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "ssCharacter",
+							"sid": 256855370551215,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 787393843626275
+				},
+				{
+					"eventType": "comment",
+					"text": "kiri"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Joystick2",
+							"sid": 404374315543528,
+							"parameters": {
+								"instance-variable": "key",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 115326444265642,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "ssCharacter",
+							"sid": 970047838803938,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 338788336693874
+				},
+				{
+					"eventType": "comment",
+					"text": "bwh"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Joystick2",
+							"sid": 780964294440539,
+							"parameters": {
+								"instance-variable": "key",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 751689874274480,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						}
+					],
+					"sid": 232382802926625
+				}
+			]
+		},
+		{
+			"eventType": "comment",
+			"text": "menang"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ssCharacter",
+					"sid": 984735928664283,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 399321202632523,
+					"parameters": {
+						"layout": "Sprite3.namaLevel"
+					}
+				}
+			],
+			"sid": 312211191474972
 		}
 	],
 	"sid": 812130125069154

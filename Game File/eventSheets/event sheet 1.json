@@ -260,9 +260,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 921857282822150,
+					"sid": 794288604106707,
 					"parameters": {
-						"layout": "Main"
+						"layout": "home"
 					}
 				},
 				{
