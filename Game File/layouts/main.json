@@ -238,7 +238,9 @@
 						"origin": "top-left"
 					},
 					"uid": 47,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 156,
@@ -370,7 +372,9 @@
 						"origin": "top-left"
 					},
 					"uid": 55,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 23,
@@ -440,7 +444,9 @@
 						"origin": "top-left"
 					},
 					"uid": 115,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 195,
@@ -510,7 +516,9 @@
 						"origin": "top-left"
 					},
 					"uid": 117,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 369,
@@ -580,7 +588,9 @@
 						"origin": "top-left"
 					},
 					"uid": 119,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 549,

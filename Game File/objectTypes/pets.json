@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 994502331131444,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "namaPet",
+			"type": "string",
+			"desc": "",
+			"sid": 231515255392986
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Sin",

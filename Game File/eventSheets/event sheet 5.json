@@ -455,55 +455,6 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "feedback"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 258915592274212,
-					"parameters": {
-						"object": "Joystick2"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-opacity",
-					"objectClass": "Joystick2",
-					"sid": 960640222387382,
-					"parameters": {
-						"opacity": "70"
-					}
-				}
-			],
-			"sid": 792286557581564
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-any-touch-end",
-					"objectClass": "Touch",
-					"sid": 686070431017488
-				}
-			],
-			"actions": [
-				{
-					"id": "set-opacity",
-					"objectClass": "Joystick2",
-					"sid": 212604013919756,
-					"parameters": {
-						"opacity": "100"
-					}
-				}
-			],
-			"sid": 513397866813790
-		},
-		{
-			"eventType": "comment",
 			"text": "menang"
 		},
 		{

@@ -15,54 +15,6 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 721651332044450,
-					"parameters": {
-						"object": "SpriteFont"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 548472086726756,
-					"parameters": {
-						"layout": "Layout 1"
-					}
-				}
-			],
-			"sid": 664456245831060
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 252930951988499,
-					"parameters": {
-						"object": "Sprite5"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 104650749659837,
-					"parameters": {
-						"layout": "Layout 1"
-					}
-				}
-			],
-			"sid": 288116661297588
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
 					"sid": 242133904863221,
 					"parameters": {
 						"object": "StartButton"
