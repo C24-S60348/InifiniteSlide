@@ -204,7 +204,17 @@
 			"m2",
 			"play",
 			"tapak",
-			"tilesyak"
+			"tilesyak",
+			"ssCharacter",
+			"bushAlt",
+			"bushOrange",
+			"cactus",
+			"treePalm",
+			"houseSmallAlt",
+			"towerAlt",
+			"treeDead",
+			"pyramid",
+			"bushAlt2"
 		],
 		"subfolders": []
 	},
@@ -237,7 +247,8 @@
 			"ButtonClick",
 			"Event sheet 2",
 			"Event sheet 3",
-			"Event sheet 4"
+			"Event sheet 4",
+			"Event sheet 5"
 		],
 		"subfolders": []
 	},

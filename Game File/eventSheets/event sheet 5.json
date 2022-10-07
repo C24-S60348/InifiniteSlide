@@ -1,0 +1,21 @@
+{
+	"name": "Event sheet 5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "ssCharacter",
+					"sid": 472910912164622,
+					"parameters": {
+						"object": "tapak"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 739121522808282
+		}
+	],
+	"sid": 812130125069154
+}
