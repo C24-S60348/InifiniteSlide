@@ -814,7 +814,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 138,
-						"y": 842,
+						"y": 817,
 						"width": 410,
 						"height": 63,
 						"originX": 0,
@@ -840,7 +840,8 @@
 					},
 					"uid": 190,
 					"instanceVariables": {
-						"namaPet": "kucing"
+						"namaPet": "kucing",
+						"isLocked": false
 					},
 					"behaviors": {
 						"Sine": {
@@ -886,7 +887,8 @@
 					},
 					"uid": 191,
 					"instanceVariables": {
-						"namaPet": "anjir"
+						"namaPet": "anjir",
+						"isLocked": false
 					},
 					"behaviors": {
 						"Sine": {
@@ -932,7 +934,8 @@
 					},
 					"uid": 192,
 					"instanceVariables": {
-						"namaPet": "arnab"
+						"namaPet": "arnab",
+						"isLocked": true
 					},
 					"behaviors": {
 						"Sine": {
@@ -978,7 +981,8 @@
 					},
 					"uid": 193,
 					"instanceVariables": {
-						"namaPet": "ayam"
+						"namaPet": "ayam",
+						"isLocked": true
 					},
 					"behaviors": {
 						"Sine": {
@@ -1044,7 +1048,7 @@
 					},
 					"world": {
 						"x": 139,
-						"y": 980,
+						"y": 955,
 						"width": 104.00764497894988,
 						"height": 112.99169404689903,
 						"originX": 0.5,
@@ -1090,7 +1094,7 @@
 					},
 					"world": {
 						"x": 301,
-						"y": 980,
+						"y": 955,
 						"width": 92.95035381839708,
 						"height": 111.26399230306265,
 						"originX": 0.5,
@@ -1136,7 +1140,7 @@
 					},
 					"world": {
 						"x": 456,
-						"y": 980,
+						"y": 955,
 						"width": 96.06021695730254,
 						"height": 112.99169404689903,
 						"originX": 0.5,
@@ -1182,9 +1186,128 @@
 					},
 					"world": {
 						"x": 603,
-						"y": 980,
+						"y": 955,
 						"width": 93.29589416716435,
 						"height": 112.99169404689903,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "CHARACTER CHANGED",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 352,
+					"instanceVariables": {
+						"isMoney": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 902,
+						"y": 792,
+						"width": 410,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0.7607843137254902,
+							0,
+							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "messagebox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 353,
+					"instanceVariables": {},
+					"behaviors": {
+						"Flash": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 346,
+						"y": 661,
+						"width": 470.1239246081049,
+						"height": 112.20480375842988,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Characterss",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 4,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 354,
+					"instanceVariables": {
+						"namaOrang": "alienChar"
+					},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 359,
+						"y": 1087,
+						"width": 64.77097648184879,
+						"height": 73.60338236573726,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

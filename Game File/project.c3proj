@@ -133,6 +133,14 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xcjmpr8czsl",
@@ -217,7 +225,8 @@
 			"bushAlt2",
 			"Sprite13",
 			"Sprite14",
-			"Sprite15"
+			"Sprite15",
+			"messagebox"
 		],
 		"subfolders": []
 	},
