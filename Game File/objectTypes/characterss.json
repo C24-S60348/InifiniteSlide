@@ -3,14 +3,7 @@
 	"plugin-id": "Sprite",
 	"sid": 786865524840887,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "namaOrang",
-			"type": "string",
-			"desc": "",
-			"sid": 436916064107522
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Sin",

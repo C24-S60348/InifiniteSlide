@@ -90,9 +90,7 @@
 						"origin": "top-left"
 					},
 					"uid": 71,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 23,
@@ -162,9 +160,7 @@
 						"origin": "top-left"
 					},
 					"uid": 120,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 195,
@@ -234,9 +230,7 @@
 						"origin": "top-left"
 					},
 					"uid": 122,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 369,
@@ -306,9 +300,7 @@
 						"origin": "top-left"
 					},
 					"uid": 124,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 549,

@@ -181,7 +181,7 @@
 					},
 					"uid": 222,
 					"instanceVariables": {
-						"namaLevel": "Layout 4"
+						"namaLevel": "home"
 					},
 					"behaviors": {},
 					"world": {
@@ -4127,9 +4127,7 @@
 						"origin": "top-left"
 					},
 					"uid": 311,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 129,

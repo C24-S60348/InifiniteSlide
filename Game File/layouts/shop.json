@@ -145,9 +145,7 @@
 						"origin": "top-left"
 					},
 					"uid": 79,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 146,
@@ -250,9 +248,7 @@
 						"origin": "top-left"
 					},
 					"uid": 75,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 23,
@@ -322,9 +318,7 @@
 						"origin": "top-left"
 					},
 					"uid": 109,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 195,
@@ -394,9 +388,7 @@
 						"origin": "top-left"
 					},
 					"uid": 111,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 369,
@@ -466,9 +458,7 @@
 						"origin": "top-left"
 					},
 					"uid": 113,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 549,
@@ -550,9 +540,7 @@
 						"origin": "top-left"
 					},
 					"uid": 206,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 141,
@@ -590,9 +578,7 @@
 						"origin": "center"
 					},
 					"uid": 200,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 313,
@@ -630,9 +616,7 @@
 						"origin": "center"
 					},
 					"uid": 201,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 577,
@@ -728,9 +712,7 @@
 						"origin": "center"
 					},
 					"uid": 205,
-					"instanceVariables": {
-						"isMoney": true
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 654,
@@ -768,9 +750,7 @@
 						"origin": "top-left"
 					},
 					"uid": 208,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 144,
@@ -808,9 +788,7 @@
 						"origin": "top-left"
 					},
 					"uid": 189,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 138,
@@ -839,9 +817,7 @@
 						"live-preview": false
 					},
 					"uid": 190,
-					"instanceVariables": {
-						"namaPet": "kucing"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -885,9 +861,7 @@
 						"live-preview": false
 					},
 					"uid": 191,
-					"instanceVariables": {
-						"namaPet": "anjir"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -931,9 +905,7 @@
 						"live-preview": false
 					},
 					"uid": 192,
-					"instanceVariables": {
-						"namaPet": "arnab"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -977,9 +949,7 @@
 						"live-preview": false
 					},
 					"uid": 193,
-					"instanceVariables": {
-						"namaPet": "ayam"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -1023,9 +993,7 @@
 						"live-preview": false
 					},
 					"uid": 194,
-					"instanceVariables": {
-						"namaOrang": "afwanChar"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -1069,9 +1037,7 @@
 						"live-preview": false
 					},
 					"uid": 195,
-					"instanceVariables": {
-						"namaOrang": "syakChar"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -1115,9 +1081,7 @@
 						"live-preview": false
 					},
 					"uid": 196,
-					"instanceVariables": {
-						"namaOrang": "afiqChar"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {
@@ -1161,9 +1125,7 @@
 						"live-preview": false
 					},
 					"uid": 197,
-					"instanceVariables": {
-						"namaOrang": "seeChar"
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Sine": {
 							"properties": {

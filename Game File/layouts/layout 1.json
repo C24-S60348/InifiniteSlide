@@ -3421,9 +3421,7 @@
 						"origin": "top-left"
 					},
 					"uid": 176,
-					"instanceVariables": {
-						"isMoney": false
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 129,
