@@ -1,20 +1,26 @@
 {
-	"name": "Tilemap2",
+	"name": "Layout2_Border",
 	"plugin-id": "Tilemap",
-	"sid": 236213989314270,
+	"sid": 612270929560807,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 294844661642752
+		}
+	],
 	"effectTypes": [],
 	"image": {
-		"width": 458,
-		"height": 305,
+		"width": 352,
+		"height": 224,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 1711869,
+		"imageSpriteId": 9067644,
 		"useCollisionPoly": true
 	},
 	"tile-collision-polys": {}

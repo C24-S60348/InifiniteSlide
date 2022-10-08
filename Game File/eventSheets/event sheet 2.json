@@ -1,5 +1,283 @@
 {
 	"name": "Event sheet 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Player Movement",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "When the player is moving on the grass, disable direction control"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PlayerSkeleton",
+							"sid": 276955421367914,
+							"parameters": {
+								"object": "Layout2_Floor"
+							}
+						},
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerSkeleton",
+							"sid": 212182606312657,
+							"behaviorType": "8Direction"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-default-controls",
+							"objectClass": "PlayerSkeleton",
+							"sid": 952848744656912,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"default-controls": false
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "PlayerSkeleton",
+							"sid": 668001678003774,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"speed": "500"
+							}
+						},
+						{
+							"id": "set-max-speed",
+							"objectClass": "PlayerSkeleton",
+							"sid": 267204301974462,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"max-speed": "1000"
+							}
+						}
+					],
+					"sid": 731566017536087
+				},
+				{
+					"eventType": "comment",
+					"text": "When the player not moving (static) or not on the grass (win), enable direction control"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PlayerSkeleton",
+							"sid": 856837211427677,
+							"parameters": {
+								"object": "Layout2_Floor"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerSkeleton",
+							"sid": 347201262793607,
+							"behaviorType": "8Direction",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-default-controls",
+							"objectClass": "PlayerSkeleton",
+							"sid": 550216769663462,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"default-controls": true
+							}
+						}
+					],
+					"sid": 217229466285237,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "comment",
+					"text": "When the player is walking, play walk animation and bgm"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerSkeleton",
+							"sid": 412095287773883,
+							"behaviorType": "8Direction"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "PlayerSkeleton",
+							"sid": 605185383811296,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 260795854573650
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 551654457343757,
+							"parameters": {
+								"key": 39
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "PlayerSkeleton",
+							"sid": 207435024138267,
+							"isInverted": true
+						},
+						{
+							"id": "is-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 761081026286994
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "PlayerSkeleton",
+							"sid": 685298109405677,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 192018808786150,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						}
+					],
+					"sid": 248745258458772
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 590997132994283,
+							"parameters": {
+								"key": 38
+							}
+						},
+						{
+							"id": "is-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 111146266109982
+						}
+					],
+					"actions": [
+						{
+							"id": "set-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 410989149215440,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						}
+					],
+					"sid": 972544236521391
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 346851252183140,
+							"parameters": {
+								"key": 40
+							}
+						},
+						{
+							"id": "is-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 174426561954405
+						}
+					],
+					"actions": [
+						{
+							"id": "set-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 993361952853776,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						}
+					],
+					"sid": 460141595948299
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 590310533604030,
+							"parameters": {
+								"key": 37
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "PlayerSkeleton",
+							"sid": 885355356224396
+						},
+						{
+							"id": "is-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 788212375957449
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "PlayerSkeleton",
+							"sid": 436635593543541,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-flipped",
+							"objectClass": "PlayerSkeleton",
+							"sid": 516967786360340,
+							"parameters": {
+								"state": "not-flipped"
+							}
+						}
+					],
+					"sid": 364258315382656
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 177192381601530
+				}
+			],
+			"sid": 100709052316044
+		}
+	],
 	"sid": 711607151603571
 }

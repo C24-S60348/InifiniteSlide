@@ -178,10 +178,9 @@
 			"TiledBackground5",
 			"Sprite8",
 			"Sprite10",
-			"Tilemap",
-			"Tilemap2",
+			"Layout2_Border",
+			"Layout2_Floor",
 			"Tilemap3",
-			"Tilemap4",
 			"bgGame",
 			"Audio",
 			"Sprite11",
@@ -227,8 +226,9 @@
 			"Sprite14",
 			"Sprite15",
 			"messagebox",
-			"Sprite19",
-			"Tilemap5"
+			"Layout2_Grave",
+			"Tilemap5",
+			"PlayerSkeleton"
 		],
 		"subfolders": []
 	},
