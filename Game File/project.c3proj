@@ -104,6 +104,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Anchor",
 			"name": "Anchor",
 			"author": "Scirra",
@@ -122,14 +130,6 @@
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Drag & Drop",
-			"author": "Scirra",
-			"version": "r308.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
