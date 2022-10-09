@@ -2,22 +2,12 @@
 	"name": "Event sheet 5",
 	"events": [
 		{
-			"eventType": "variable",
-			"name": "countExit2",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 923397308072910
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "ssCharacter",
-					"sid": 806720154565794,
+					"sid": 722183905340631,
 					"parameters": {
 						"object": "tapak"
 					}
@@ -25,7 +15,7 @@
 				{
 					"id": "is-moving",
 					"objectClass": "ssCharacter",
-					"sid": 207064264725840,
+					"sid": 651263891636839,
 					"behaviorType": "8Direction"
 				}
 			],
@@ -33,7 +23,7 @@
 				{
 					"id": "set-default-controls",
 					"objectClass": "ssCharacter",
-					"sid": 475888904073406,
+					"sid": 609940299260004,
 					"behaviorType": "8Direction",
 					"parameters": {
 						"default-controls": false
@@ -42,14 +32,14 @@
 				{
 					"id": "set-speed",
 					"objectClass": "ssCharacter",
-					"sid": 616037649912374,
+					"sid": 586368780305610,
 					"behaviorType": "8Direction",
 					"parameters": {
-						"speed": "2000"
+						"speed": "500"
 					}
 				}
 			],
-			"sid": 452873245970505
+			"sid": 203832352740379
 		},
 		{
 			"eventType": "block",
@@ -57,7 +47,7 @@
 				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "ssCharacter",
-					"sid": 671574243539090,
+					"sid": 393852736612518,
 					"parameters": {
 						"object": "tapak"
 					},
@@ -66,7 +56,7 @@
 				{
 					"id": "is-moving",
 					"objectClass": "ssCharacter",
-					"sid": 860540794984248,
+					"sid": 833982882285831,
 					"behaviorType": "8Direction",
 					"isInverted": true
 				}
@@ -75,14 +65,14 @@
 				{
 					"id": "set-default-controls",
 					"objectClass": "ssCharacter",
-					"sid": 989592430004871,
+					"sid": 116944301720119,
 					"behaviorType": "8Direction",
 					"parameters": {
 						"default-controls": true
 					}
 				}
 			],
-			"sid": 772346439786121,
+			"sid": 302453610956599,
 			"isOrBlock": true
 		},
 		{
@@ -91,7 +81,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "ssCharacter",
-					"sid": 674893019398002,
+					"sid": 323283207640816,
 					"parameters": {
 						"object": "tilesyak"
 					}
@@ -101,363 +91,11 @@
 				{
 					"id": "stop",
 					"objectClass": "ssCharacter",
-					"sid": 398860354608868,
+					"sid": 741938013717473,
 					"behaviorType": "8Direction"
 				}
 			],
-			"sid": 179230573931823
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-moving",
-					"objectClass": "ssCharacter",
-					"sid": 669409353364843,
-					"behaviorType": "8Direction"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "ssCharacter",
-					"sid": 407151470091914,
-					"parameters": {
-						"frame-number": "1"
-					}
-				},
-				{
-					"id": "set-animation-speed",
-					"objectClass": "ssCharacter",
-					"sid": 185680530661329,
-					"disabled": true,
-					"parameters": {
-						"speed": "10"
-					}
-				}
-			],
-			"sid": 485982671663178
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "else",
-					"objectClass": "System",
-					"sid": 586200000197187
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "ssCharacter",
-					"sid": 285440527526509,
-					"parameters": {
-						"frame-number": "0"
-					}
-				},
-				{
-					"id": "set-animation-speed",
-					"objectClass": "ssCharacter",
-					"sid": 683482234929244,
-					"disabled": true,
-					"parameters": {
-						"speed": "0"
-					}
-				}
-			],
-			"sid": 891071564311012
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 788293898313026,
-					"parameters": {
-						"key": 37
-					}
-				},
-				{
-					"id": "is-moving",
-					"objectClass": "ssCharacter",
-					"sid": 171977416514069,
-					"behaviorType": "8Direction",
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "ssCharacter",
-					"sid": 352543790071684,
-					"parameters": {
-						"state": "mirrored"
-					}
-				}
-			],
-			"sid": 755667568350369
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 900798541094052,
-					"parameters": {
-						"key": 39
-					}
-				},
-				{
-					"id": "is-moving",
-					"objectClass": "ssCharacter",
-					"sid": 763420504123543,
-					"behaviorType": "8Direction",
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "ssCharacter",
-					"sid": 467564387101576,
-					"parameters": {
-						"state": "not-mirrored"
-					}
-				}
-			],
-			"sid": 352392133225749
-		},
-		{
-			"eventType": "comment",
-			"text": "go back"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 456216350477922,
-					"parameters": {
-						"object": "BtnBack"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 532454631325246,
-					"parameters": {
-						"layout": "Main"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 155832753989465,
-					"parameters": {
-						"variable": "countExit",
-						"value": "0"
-					}
-				}
-			],
-			"sid": 262987420217061
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 302763263420279,
-					"parameters": {
-						"object": "Joystick2"
-					}
-				},
-				{
-					"id": "is-moving",
-					"objectClass": "ssCharacter",
-					"sid": 640987912184973,
-					"behaviorType": "8Direction",
-					"isInverted": true
-				}
-			],
-			"actions": [],
-			"sid": 510595237039880,
-			"children": [
-				{
-					"eventType": "comment",
-					"text": "up"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Joystick2",
-							"sid": 516932329958780,
-							"parameters": {
-								"instance-variable": "key",
-								"comparison": 0,
-								"value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "simulate-control",
-							"objectClass": "ssCharacter",
-							"sid": 755515326171219,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "up"
-							}
-						}
-					],
-					"sid": 595625920799800
-				},
-				{
-					"eventType": "comment",
-					"text": "kanan"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Joystick2",
-							"sid": 574842573326183,
-							"parameters": {
-								"instance-variable": "key",
-								"comparison": 0,
-								"value": "2"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "simulate-control",
-							"objectClass": "ssCharacter",
-							"sid": 914926699854527,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "right"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "ssCharacter",
-							"sid": 256855370551215,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						}
-					],
-					"sid": 787393843626275
-				},
-				{
-					"eventType": "comment",
-					"text": "kiri"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Joystick2",
-							"sid": 404374315543528,
-							"parameters": {
-								"instance-variable": "key",
-								"comparison": 0,
-								"value": "3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "simulate-control",
-							"objectClass": "ssCharacter",
-							"sid": 115326444265642,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "left"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "ssCharacter",
-							"sid": 970047838803938,
-							"parameters": {
-								"state": "mirrored"
-							}
-						}
-					],
-					"sid": 338788336693874
-				},
-				{
-					"eventType": "comment",
-					"text": "bwh"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Joystick2",
-							"sid": 780964294440539,
-							"parameters": {
-								"instance-variable": "key",
-								"comparison": 0,
-								"value": "4"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "simulate-control",
-							"objectClass": "ssCharacter",
-							"sid": 751689874274480,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "down"
-							}
-						}
-					],
-					"sid": 232382802926625
-				}
-			]
-		},
-		{
-			"eventType": "comment",
-			"text": "menang"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "ssCharacter",
-					"sid": 984735928664283,
-					"parameters": {
-						"object": "Sprite3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout-by-name",
-					"objectClass": "System",
-					"sid": 399321202632523,
-					"parameters": {
-						"layout": "Sprite3.namaLevel"
-					}
-				}
-			],
-			"sid": 312211191474972
+			"sid": 596760744350576
 		}
 	],
 	"sid": 812130125069154

@@ -1,5 +1,5 @@
 {
-	"name": "Layout syak",
+	"name": "Layout 5",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -2683,8 +2683,8 @@
 						}
 					},
 					"world": {
-						"x": 312.280655638851,
-						"y": 551.5890573132272,
+						"x": 313.44591450433245,
+						"y": 551.8724900368743,
 						"width": 125,
 						"height": 125,
 						"originX": 0.5,
@@ -4488,53 +4488,6 @@
 					}
 				},
 				{
-					"type": "ssCharacter",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 571,
-					"instanceVariables": {},
-					"behaviors": {
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						},
-						"8Direction": {
-							"properties": {
-								"max-speed": 1000,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-4",
-								"set-angle": "no",
-								"allow-sliding": true,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 209,
-						"y": 418,
-						"width": 100,
-						"height": 100,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "bushAlt",
 					"properties": {
 						"initially-visible": true,
@@ -4667,35 +4620,6 @@
 						"y": 208,
 						"width": 44,
 						"height": 122,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "pyramid",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 584,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1192,
-						"y": 2321,
-						"width": 204,
-						"height": 200,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -4928,6 +4852,53 @@
 						"y": 1144.452228607774,
 						"width": 65.82857142857142,
 						"height": 86.95873015873016,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ssCharacter",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 571,
+					"instanceVariables": {},
+					"behaviors": {
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-4",
+								"set-angle": "no",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 209,
+						"y": 418,
+						"width": 100,
+						"height": 100,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
