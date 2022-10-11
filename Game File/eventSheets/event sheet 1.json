@@ -605,6 +605,24 @@
 				}
 			],
 			"sid": 693001459905879
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite",
+					"sid": 567611052227732
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 556249524501145
+				}
+			],
+			"sid": 441524668128947
 		}
 	],
 	"sid": 991181321091608

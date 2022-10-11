@@ -4913,7 +4913,7 @@
 						},
 						"8Direction": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 2000,
 								"acceleration": 600,
 								"deceleration": 500,
 								"directions": "dir-4",
@@ -4980,5 +4980,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 4"
+	"eventSheet": "Event sheet 5"
 }
