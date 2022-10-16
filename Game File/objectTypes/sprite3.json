@@ -16,6 +16,11 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 559633795355078
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 321160088154167
 		}
 	],
 	"effectTypes": [],

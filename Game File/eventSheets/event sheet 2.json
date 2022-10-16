@@ -74,8 +74,7 @@
 							"sid": 856837211427677,
 							"parameters": {
 								"object": "Layout2_Floor"
-							},
-							"isInverted": true
+							}
 						},
 						{
 							"id": "is-moving",
@@ -89,7 +88,7 @@
 						{
 							"id": "set-default-controls",
 							"objectClass": "PlayerSkeleton",
-							"sid": 550216769663462,
+							"sid": 261489682446023,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"default-controls": true
@@ -277,6 +276,121 @@
 				}
 			],
 			"sid": 100709052316044
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Starting Point",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "PlayerSkeleton",
+							"sid": 173141257934288
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "PlayerSkeleton",
+							"sid": 447852335878571,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 822525232678331
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 319321575075162,
+							"parameters": {
+								"object": "play"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "PlayerSkeleton",
+							"sid": 392611883950841,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "PlayerSkeleton",
+							"sid": 425499927261257,
+							"parameters": {
+								"x": "play.X",
+								"y": "play.Y-15"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "play",
+							"sid": 331356669223723,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 501338827754590
+				}
+			],
+			"sid": 669987292673153
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Reaching End Point",
+			"description": "",
+			"isActiveOnStart": false,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "collisions-enabled",
+							"objectClass": "PlayerSkeleton",
+							"sid": 450785477791057
+						}
+					],
+					"actions": [],
+					"sid": 483033823011340
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "PlayerSkeleton",
+							"sid": 122800826555483,
+							"parameters": {
+								"object": "Sprite3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 499241585228017
+						}
+					],
+					"sid": 157920884634381
+				}
+			],
+			"sid": 358135029321705
 		}
 	],
 	"sid": 711607151603571

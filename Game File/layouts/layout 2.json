@@ -113,7 +113,7 @@
 							"height": 60,
 							"max-width": 92,
 							"max-height": 164,
-							"data": "60x134,104x0,60x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,8x134,2x234,3x245,105,234,45x134,104x0,8x134,2x234,3x245,105,234,45x134,8632x0"
+							"data": "60x134,104x0,60x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,8x134,2x234,4x0,234,45x134,104x0,8x134,2x234,4x0,234,45x134,8632x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -160,16 +160,22 @@
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
-								"magnitude": 50,
+								"magnitude": 10,
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
 					"world": {
 						"x": 656,
-						"y": 336,
+						"y": 352,
 						"width": 32,
 						"height": 48,
 						"originX": 0.5,
@@ -196,18 +202,10 @@
 					"uid": 437,
 					"instanceVariables": {},
 					"behaviors": {
-						"Sine": {
+						"Solid": {
 							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
 								"enabled": true,
-								"live-preview": false
+								"tags": ""
 							}
 						}
 					},
@@ -237,65 +235,13 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 438,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 352,
-						"y": 1104,
-						"width": 64,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "play",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 439,
 					"instanceVariables": {},
 					"behaviors": {
-						"Sine": {
+						"Solid": {
 							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
 								"enabled": true,
-								"live-preview": false
+								"tags": ""
 							}
 						}
 					},
@@ -6392,6 +6338,42 @@
 						],
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "play",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 438,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 352,
+						"y": 1104,
+						"width": 64,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 217658043142840,
@@ -6521,42 +6503,6 @@
 					"world": {
 						"x": 96,
 						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Layout2_Grave",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 426,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 416,
-						"y": 1056,
 						"width": 64,
 						"height": 64,
 						"originX": 0.5,
@@ -6849,8 +6795,8 @@
 						}
 					},
 					"world": {
-						"x": 160,
-						"y": 1056,
+						"x": -192,
+						"y": 560,
 						"width": 64,
 						"height": 64,
 						"originX": 0.5,
