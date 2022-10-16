@@ -615,14 +615,33 @@
 					"sid": 567611052227732
 				}
 			],
+			"actions": [],
+			"sid": 441524668128947
+		},
+		{
+			"eventType": "comment",
+			"text": "boss"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 378014524204952,
+					"parameters": {
+						"object": "Sprite15"
+					}
+				}
+			],
 			"actions": [
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 556249524501145
+					"sid": 892813104885119
 				}
 			],
-			"sid": 441524668128947
+			"sid": 965576212804595
 		}
 	],
 	"sid": 991181321091608

@@ -62,12 +62,6 @@
 								"enabled": true,
 								"live-preview": false
 							}
-						},
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
 						}
 					},
 					"world": {
@@ -3409,12 +3403,6 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
-							}
-						},
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
 							}
 						}
 					},

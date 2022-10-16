@@ -345,6 +345,43 @@
 						}
 					],
 					"sid": 501338827754590
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "PlayerSkeleton",
+							"sid": 643260369772448,
+							"parameters": {
+								"object": "Sprite3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 712511831874420
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 915749287402527,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 952908457245042,
+							"parameters": {
+								"layout": "home"
+							}
+						}
+					],
+					"sid": 962634876569238
 				}
 			],
 			"sid": 669987292673153
@@ -355,42 +392,14 @@
 			"title": "Reaching End Point",
 			"description": "",
 			"isActiveOnStart": false,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "collisions-enabled",
-							"objectClass": "PlayerSkeleton",
-							"sid": 450785477791057
-						}
-					],
-					"actions": [],
-					"sid": 483033823011340
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "PlayerSkeleton",
-							"sid": 122800826555483,
-							"parameters": {
-								"object": "Sprite3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "Sprite3",
-							"sid": 499241585228017
-						}
-					],
-					"sid": 157920884634381
-				}
-			],
-			"sid": 358135029321705
+			"children": [],
+			"sid": 358135029321705,
+			"text-color": [
+				1,
+				1,
+				1,
+				1
+			]
 		}
 	],
 	"sid": 711607151603571

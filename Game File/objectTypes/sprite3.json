@@ -16,11 +16,6 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 559633795355078
-		},
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 321160088154167
 		}
 	],
 	"effectTypes": [],
@@ -64,10 +59,10 @@
 						"collisionPoly": {
 							"points": [
 								0,
-								0,
-								0.8182080924855455,
-								0,
-								0.8757225433526088,
+								0.05,
+								1,
+								0.05,
+								1,
 								1,
 								0,
 								1
