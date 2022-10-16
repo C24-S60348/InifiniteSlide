@@ -207,7 +207,7 @@
 					},
 					"world": {
 						"x": 197,
-						"y": 1969,
+						"y": 1990,
 						"width": 107.98178969583668,
 						"height": 111.10253466334947,
 						"originX": 0.5,
@@ -3957,8 +3957,16 @@
 						"live-preview": false
 					},
 					"uid": 174,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"notDrag": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 606,
 						"y": 234,
@@ -4139,9 +4147,16 @@
 					},
 					"uid": 311,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 129,
 						"y": 31,
@@ -4382,9 +4397,16 @@
 					},
 					"uid": 309,
 					"instanceVariables": {
-						"isMoney": true
+						"isMoney": true,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 621,
 						"y": 35,
@@ -4412,8 +4434,16 @@
 						"live-preview": false
 					},
 					"uid": 367,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"notDrag": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 584,
 						"y": 48,

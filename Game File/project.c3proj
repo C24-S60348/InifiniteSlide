@@ -112,16 +112,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Anchor",
-			"name": "Anchor",
+			"id": "Pin",
+			"name": "Pin",
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
+			"id": "Anchor",
+			"name": "Anchor",
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false

@@ -3,8 +3,21 @@
 	"plugin-id": "Sprite",
 	"sid": 703652590369403,
 	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
+	"instanceVariables": [
+		{
+			"name": "notDrag",
+			"type": "boolean",
+			"desc": "",
+			"sid": 644357747112368
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 452203374162900
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

@@ -16,8 +16,16 @@
 						"live-preview": false
 					},
 					"uid": 36,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"notDrag": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 558.1012189642514,
 						"y": 55.82849169152419,
@@ -239,9 +247,16 @@
 					},
 					"uid": 47,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 156,
 						"y": 160,
@@ -373,9 +388,16 @@
 					},
 					"uid": 55,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 23,
 						"y": 1227,
@@ -445,9 +467,16 @@
 					},
 					"uid": 115,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 195,
 						"y": 1229,
@@ -517,9 +546,16 @@
 					},
 					"uid": 117,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 369,
 						"y": 1232,
@@ -589,9 +625,16 @@
 					},
 					"uid": 119,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 549,
 						"y": 1230,

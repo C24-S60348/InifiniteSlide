@@ -91,9 +91,16 @@
 					},
 					"uid": 71,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 23,
 						"y": 1227,
@@ -163,9 +170,16 @@
 					},
 					"uid": 120,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 195,
 						"y": 1229,
@@ -235,9 +249,16 @@
 					},
 					"uid": 122,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 369,
 						"y": 1232,
@@ -307,9 +328,16 @@
 					},
 					"uid": 124,
 					"instanceVariables": {
-						"isMoney": false
+						"isMoney": false,
+						"notDrag": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 549,
 						"y": 1230,

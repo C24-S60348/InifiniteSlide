@@ -16,6 +16,11 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 611334323570019
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 277197098880685
 		}
 	],
 	"effectTypes": [],
