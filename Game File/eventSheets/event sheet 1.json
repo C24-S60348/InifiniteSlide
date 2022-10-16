@@ -615,7 +615,21 @@
 					"sid": 567611052227732
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 440365441097176,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 954308659351037
+				}
+			],
 			"sid": 441524668128947
 		},
 		{
