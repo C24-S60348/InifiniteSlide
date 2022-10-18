@@ -1133,7 +1133,7 @@
 						"scale": 1.5,
 						"character-spacing": 0,
 						"line-height": 0,
-						"horizontal-alignment": "center",
+						"horizontal-alignment": "left",
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
@@ -1152,9 +1152,9 @@
 						}
 					},
 					"world": {
-						"x": 654,
-						"y": 56,
-						"width": 93,
+						"x": 677,
+						"y": 53,
+						"width": 117,
 						"height": 72,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -1162,6 +1162,132 @@
 							0,
 							0,
 							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "messagebox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 353,
+					"instanceVariables": {},
+					"behaviors": {
+						"Flash": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 346,
+						"y": 661,
+						"width": 470.12392460810486,
+						"height": 112.20480375842989,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "tambahItem",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 744,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 510,
+						"y": -40,
+						"width": 88.73973697714356,
+						"height": 88.73973697714356,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "brick",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 584,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 189,
+						"y": 1379,
+						"width": 388,
+						"height": 127,
+						"originX": 0.5368663594470046,
+						"originY": 1.5608108108108107,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "brick",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 729,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 570,
+						"y": 1378,
+						"width": 388,
+						"height": 127,
+						"originX": 0.5368663594470046,
+						"originY": 1.5608108108108107,
+						"color": [
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 0,
@@ -1478,74 +1604,6 @@
 							0,
 							0,
 							0,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "messagebox",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 353,
-					"instanceVariables": {},
-					"behaviors": {
-						"Flash": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 346,
-						"y": 661,
-						"width": 470.12392460810486,
-						"height": 112.20480375842989,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "tambahItem",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 744,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 510,
-						"y": -40,
-						"width": 88.73973697714356,
-						"height": 88.73973697714356,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
 							1
 						],
 						"angle": 0,
