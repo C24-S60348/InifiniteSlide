@@ -1,14 +1,14 @@
 {
-	"name": "play",
+	"name": "play2",
 	"plugin-id": "Sprite",
-	"sid": 259003613030245,
+	"sid": 473055136708616,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 592419942006551
+			"sid": 150793620462121
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8349461,
+						"imageSpriteId": 5137216,
 						"collisionPoly": {
 							"points": [
 								0.025741956076572908,
@@ -49,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 355620262589004,
+				"sid": 140979141929492,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
