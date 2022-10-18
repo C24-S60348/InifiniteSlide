@@ -232,7 +232,11 @@
 			"JS",
 			"JS2",
 			"JS3",
-			"JS4"
+			"JS4",
+			"Sprite16",
+			"TiledBackground6",
+			"Sprite17",
+			"Sprite18"
 		],
 		"subfolders": []
 	},
