@@ -7,6 +7,93 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Sprite12",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 732,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 361,
+						"y": 644,
+						"width": 734,
+						"height": 1305,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "brick",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 730,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 189,
+						"y": 1379,
+						"width": 388,
+						"height": 127,
+						"originX": 0.5368663594470046,
+						"originY": 1.5608108108108107,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "brick",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 731,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 570,
+						"y": 1378,
+						"width": 388,
+						"height": 127,
+						"originX": 0.5368663594470046,
+						"originY": 1.5608108108108107,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "tutupBG",
 					"properties": {
 						"initially-visible": true,

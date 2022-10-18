@@ -4380,16 +4380,16 @@
 						"character-height": 16,
 						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
 						"spacing-data": "",
-						"scale": 2,
+						"scale": 1.5,
 						"character-spacing": 0,
 						"line-height": 0,
-						"horizontal-alignment": "center",
+						"horizontal-alignment": "left",
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 309,
+					"uid": 73,
 					"instanceVariables": {
 						"isMoney": true,
 						"notDrag": false
@@ -4402,9 +4402,9 @@
 						}
 					},
 					"world": {
-						"x": 621,
+						"x": 598,
 						"y": 35,
-						"width": 93,
+						"width": 127,
 						"height": 72,
 						"originX": 0,
 						"originY": 0,
@@ -4427,7 +4427,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 367,
+					"uid": 309,
 					"instanceVariables": {
 						"notDrag": false
 					},
@@ -4439,10 +4439,10 @@
 						}
 					},
 					"world": {
-						"x": 584,
+						"x": 565,
 						"y": 48,
-						"width": 66.58886853685212,
-						"height": 74.58886853685212,
+						"width": 48.463297351268,
+						"height": 54.28568759950561,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

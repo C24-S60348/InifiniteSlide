@@ -241,7 +241,6 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-			"Main",
 			"Map",
 			"Tools",
 			"Shop",
