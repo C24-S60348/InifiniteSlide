@@ -8,45 +8,6 @@
 			"instances": [
 				{
 					"type": "dragger",
-<<<<<<< Updated upstream
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 733,
-					"instanceVariables": {},
-					"behaviors": {
-						"DragDrop": {
-							"properties": {
-								"axes": "vertical-only",
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 721,
-						"height": 1866,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "bgGame",
-=======
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -92,13 +53,7 @@
 					},
 					"uid": 198,
 					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 0,
 						"y": 0,
@@ -117,140 +72,16 @@
 					}
 				},
 				{
-					"type": "brick",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 729,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 187,
-						"y": 1378,
-						"width": 388,
-						"height": 127,
-						"originX": 0.5368663594470046,
-						"originY": 1.5608108108108107,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "flashlight",
-=======
-					"type": "brick",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 199,
-=======
-					"uid": 732,
->>>>>>> Stashed changes
-					"instanceVariables": {},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 20,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-<<<<<<< Updated upstream
-						"x": 173,
-						"y": 302,
-						"width": 122.56057175943656,
-						"height": 67.4083144676901,
-						"originX": 0.75,
-						"originY": 0.5454545454545454,
-=======
-						"x": 567,
-						"y": 1378,
-						"width": 388,
-						"height": 127,
-						"originX": 0.5368663594470046,
-						"originY": 1.5608108108108107,
->>>>>>> Stashed changes
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "btnUse",
 					"properties": {
-<<<<<<< Updated upstream
-						"text": "FLASHLIGHT",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.5,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-=======
->>>>>>> Stashed changes
 						"initially-visible": true,
 						"initial-animation": "Animation 2",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
-					"uid": 206,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": false
-					},
-=======
 					"uid": 207,
 					"instanceVariables": {},
->>>>>>> Stashed changes
 					"behaviors": {
 						"Pin": {
 							"properties": {
@@ -259,15 +90,6 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 141,
-						"y": 186,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-=======
 						"x": 294,
 						"y": 303,
 						"width": 104.99029307573753,
@@ -310,7 +132,6 @@
 						"originX": 0.5384615384615384,
 						"originY": 0.5333333333333333,
 						"color": [
->>>>>>> Stashed changes
 							1,
 							1,
 							1,
@@ -321,35 +142,9 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
-					"type": "SpriteFont",
-=======
 					"type": "flashlight",
->>>>>>> Stashed changes
 					"properties": {
-						"text": "2",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.5,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
 						"initially-visible": true,
-<<<<<<< Updated upstream
-						"origin": "center"
-					},
-					"uid": 200,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": false
-					},
-					"behaviors": {
-=======
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -372,7 +167,6 @@
 								"live-preview": false
 							}
 						},
->>>>>>> Stashed changes
 						"Pin": {
 							"properties": {
 								"destroy": false
@@ -380,25 +174,16 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 313,
-						"y": 300,
-						"width": 93,
-						"height": 72,
-						"originX": 0.5,
-						"originY": 0.5,
-=======
 						"x": 173,
 						"y": 302,
 						"width": 122.56057175943656,
 						"height": 67.4083144676901,
 						"originX": 0.75,
 						"originY": 0.5454545454545454,
->>>>>>> Stashed changes
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 0,
@@ -408,11 +193,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-<<<<<<< Updated upstream
-						"text": "USE",
-=======
 						"text": "FLASHLIGHT",
->>>>>>> Stashed changes
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -422,16 +203,12 @@
 						"character-spacing": 0,
 						"line-height": 0,
 						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
+						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "top-left"
 					},
-<<<<<<< Updated upstream
-					"uid": 201,
-=======
 					"uid": 206,
->>>>>>> Stashed changes
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": false
@@ -444,50 +221,6 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 577,
-						"y": 305,
-						"width": 159,
-						"height": 62,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "tambahItem",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 203,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 404,
-						"y": 308,
-						"width": 88.73973697714356,
-						"height": 88.73973697714356,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-=======
 						"x": 141,
 						"y": 186,
 						"width": 410,
@@ -495,7 +228,6 @@
 						"originX": 0,
 						"originY": 0,
 						"color": [
->>>>>>> Stashed changes
 							1,
 							1,
 							1,
@@ -508,11 +240,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-<<<<<<< Updated upstream
-						"text": "PET",
-=======
 						"text": "2",
->>>>>>> Stashed changes
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -527,11 +255,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-<<<<<<< Updated upstream
-					"uid": 208,
-=======
 					"uid": 200,
->>>>>>> Stashed changes
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": false
@@ -544,25 +268,16 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 144,
-						"y": 403,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
-=======
 						"x": 313,
 						"y": 300,
 						"width": 93,
 						"height": 72,
 						"originX": 0.5,
 						"originY": 0.5,
->>>>>>> Stashed changes
 						"color": [
-							1,
-							1,
-							1,
+							0,
+							0,
+							0,
 							1
 						],
 						"angle": 0,
@@ -572,11 +287,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-<<<<<<< Updated upstream
-						"text": "CHARACTER",
-=======
 						"text": "USE",
->>>>>>> Stashed changes
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -586,123 +297,6 @@
 						"character-spacing": 0,
 						"line-height": 0,
 						"horizontal-alignment": "center",
-<<<<<<< Updated upstream
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 189,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": false
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 138,
-						"y": 817,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Pets",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Kucing",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 190,
-					"instanceVariables": {
-						"namaPet": "kucing",
-						"isLocked": false
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 233,
-						"y": 538,
-						"width": 152.28619154281648,
-						"height": 100.20904832092069,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Pets",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Anjing",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 191,
-					"instanceVariables": {
-						"namaPet": "anjir",
-						"isLocked": false
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-=======
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
@@ -714,7 +308,6 @@
 						"notDrag": false
 					},
 					"behaviors": {
->>>>>>> Stashed changes
 						"Pin": {
 							"properties": {
 								"destroy": false
@@ -722,23 +315,16 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 481,
-						"y": 531,
-						"width": 108.88857219123665,
-						"height": 119.93523893527515,
-=======
 						"x": 577,
 						"y": 305,
 						"width": 159,
 						"height": 62,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							1,
-							1,
+							0,
+							0,
+							0,
 							1
 						],
 						"angle": 0,
@@ -746,36 +332,6 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
-					"type": "Pets",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Arnab",
-						"initial-frame": 2,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 192,
-					"instanceVariables": {
-						"namaPet": "arnab",
-						"isLocked": true
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-=======
 					"type": "tambahItem",
 					"properties": {
 						"initially-visible": true,
@@ -787,7 +343,6 @@
 					"uid": 203,
 					"instanceVariables": {},
 					"behaviors": {
->>>>>>> Stashed changes
 						"Pin": {
 							"properties": {
 								"destroy": false
@@ -795,17 +350,10 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 221,
-						"y": 704,
-						"width": 96.27298274009469,
-						"height": 113.7771614201119,
-=======
 						"x": 404,
 						"y": 308,
 						"width": 88.73973697714356,
 						"height": 88.73973697714356,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -819,360 +367,9 @@
 					}
 				},
 				{
-					"type": "Pets",
+					"type": "SpriteFont",
 					"properties": {
-<<<<<<< Updated upstream
-=======
 						"text": "PET",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.5,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
->>>>>>> Stashed changes
-						"initially-visible": true,
-						"initial-animation": "Ayam",
-						"initial-frame": 2,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 193,
-					"instanceVariables": {
-						"namaPet": "ayam",
-						"isLocked": true
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 476,
-						"y": 707,
-						"width": 106.61687502825576,
-						"height": 106.61687502825576,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Characterss",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 194,
-					"instanceVariables": {
-						"namaOrang": "afwanChar"
-					},
-=======
-					"uid": 208,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": false
-					},
->>>>>>> Stashed changes
-					"behaviors": {
-						"Pin": {
-							"properties": {
-<<<<<<< Updated upstream
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-=======
-								"destroy": false
->>>>>>> Stashed changes
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-<<<<<<< Updated upstream
-						"x": 139,
-						"y": 955,
-						"width": 104.00764497894988,
-						"height": 112.99169404689903,
-						"originX": 0.5,
-						"originY": 0.5,
-=======
-						"x": 144,
-						"y": 403,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
->>>>>>> Stashed changes
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Characterss",
-					"properties": {
-<<<<<<< Updated upstream
-=======
-						"text": "CHARACTER",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.5,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
->>>>>>> Stashed changes
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 1,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 195,
-					"instanceVariables": {
-						"namaOrang": "syakChar"
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-=======
-					"uid": 189,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": false
-					},
-					"behaviors": {
->>>>>>> Stashed changes
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-<<<<<<< Updated upstream
-						"x": 301,
-						"y": 955,
-						"width": 92.95035381839708,
-						"height": 111.26399230306265,
-						"originX": 0.5,
-						"originY": 0.5,
-=======
-						"x": 138,
-						"y": 817,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
->>>>>>> Stashed changes
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "Characterss",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 2,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 196,
-					"instanceVariables": {
-						"namaOrang": "afiqChar"
-=======
-					"type": "Pets",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Kucing",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 190,
-					"instanceVariables": {
-						"namaPet": "kucing",
-						"isLocked": false
->>>>>>> Stashed changes
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-<<<<<<< Updated upstream
-						"x": 456,
-						"y": 955,
-						"width": 96.06021695730254,
-						"height": 112.99169404689903,
-=======
-						"x": 233,
-						"y": 538,
-						"width": 152.28619154281648,
-						"height": 100.20904832092069,
->>>>>>> Stashed changes
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-<<<<<<< Updated upstream
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Characterss",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 3,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 197,
-					"instanceVariables": {
-						"namaOrang": "seeChar"
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 603,
-						"y": 955,
-						"width": 93.29589416716435,
-						"height": 112.99169404689903,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-=======
->>>>>>> Stashed changes
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Pets",
-					"properties": {
-<<<<<<< Updated upstream
-						"text": "CHARACTER CHANGED",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -1187,13 +384,137 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 352,
+					"uid": 208,
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": false
 					},
 					"behaviors": {
-=======
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 144,
+						"y": 403,
+						"width": 410,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "CHARACTER",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 189,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 138,
+						"y": 817,
+						"width": 410,
+						"height": 63,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pets",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Kucing",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 190,
+					"instanceVariables": {
+						"namaPet": "kucing",
+						"isLocked": false
+					},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 233,
+						"y": 538,
+						"width": 152.28619154281648,
+						"height": 100.20904832092069,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pets",
+					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Anjing",
 						"initial-frame": 0,
@@ -1220,7 +541,6 @@
 								"live-preview": false
 							}
 						},
->>>>>>> Stashed changes
 						"Pin": {
 							"properties": {
 								"destroy": false
@@ -1228,68 +548,10 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 902,
-						"y": 792,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							0.7607843137254902,
-							0,
-							0,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Characterss",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 4,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 354,
-					"instanceVariables": {
-						"namaOrang": "alienChar"
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "angle",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 362,
-						"y": 1093,
-						"width": 64.77097648184879,
-						"height": 73.60338236573726,
-=======
 						"x": 481,
 						"y": 531,
 						"width": 108.88857219123665,
 						"height": 119.93523893527515,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1301,100 +563,8 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				}
-			],
-			"sid": 183477542493384,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.9882352941176471,
-				0.9882352941176471,
-				0.9882352941176471,
-				1
-			],
-			"isTransparent": false,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
-			"name": "Layer 1",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [
-				{
-<<<<<<< Updated upstream
-					"type": "tutupBG",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 114,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2,
-						"y": -1,
-						"width": 720,
-						"height": 100,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				},
 				{
-					"type": "SpriteFont",
-					"properties": {
-						"text": "SHOP",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 2,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 79,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": true
-					},
-					"behaviors": {
-=======
 					"type": "Pets",
 					"properties": {
 						"initially-visible": true,
@@ -1423,7 +593,6 @@
 								"live-preview": false
 							}
 						},
->>>>>>> Stashed changes
 						"Pin": {
 							"properties": {
 								"destroy": false
@@ -1431,52 +600,6 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 146,
-						"y": 41,
-						"width": 410,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 204,
-					"instanceVariables": {
-						"notDrag": true
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 585.3048022968718,
-						"y": 52.42644717738108,
-						"width": 54.00610489903428,
-						"height": 54.00610489903428,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-=======
 						"x": 221,
 						"y": 704,
 						"width": 96.27298274009469,
@@ -1484,7 +607,6 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
->>>>>>> Stashed changes
 							1,
 							1,
 							1,
@@ -1497,27 +619,6 @@
 				{
 					"type": "Pets",
 					"properties": {
-<<<<<<< Updated upstream
-						"text": "50",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.5,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "center"
-					},
-					"uid": 205,
-					"instanceVariables": {
-						"isMoney": true,
-						"notDrag": true
-=======
 						"initially-visible": true,
 						"initial-animation": "Ayam",
 						"initial-frame": 2,
@@ -1579,12 +680,20 @@
 					"uid": 194,
 					"instanceVariables": {
 						"namaOrang": "afwanChar"
->>>>>>> Stashed changes
 					},
 					"behaviors": {
-						"Pin": {
+						"Sine": {
 							"properties": {
-								"destroy": false
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
 							}
 						},
 						"Pin": {
@@ -1594,23 +703,16 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 654,
-						"y": 56,
-						"width": 93,
-						"height": 72,
-=======
 						"x": 139,
 						"y": 955,
 						"width": 104.00764497894988,
 						"height": 112.99169404689903,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 0,
@@ -1618,20 +720,6 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
-					"type": "CardBawah",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Select",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 74,
-					"instanceVariables": {
-						"item": 1,
-						"isOnOff": true
-=======
 					"type": "Characterss",
 					"properties": {
 						"initially-visible": true,
@@ -1664,21 +752,12 @@
 								"destroy": false
 							}
 						}
->>>>>>> Stashed changes
 					},
-					"behaviors": {},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 93,
-						"y": 1254,
-						"width": 143,
-						"height": 107,
-=======
 						"x": 301,
 						"y": 955,
 						"width": 92.95035381839708,
 						"height": 111.26399230306265,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1692,33 +771,9 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
-					"type": "SpriteFont",
-=======
 					"type": "Characterss",
->>>>>>> Stashed changes
 					"properties": {
-						"text": "SHOP",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.5,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-<<<<<<< Updated upstream
-						"origin": "top-left"
-					},
-					"uid": 75,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": true
-=======
 						"initial-animation": "Animation 1",
 						"initial-frame": 2,
 						"enable-collisions": true,
@@ -1727,12 +782,20 @@
 					"uid": 196,
 					"instanceVariables": {
 						"namaOrang": "afiqChar"
->>>>>>> Stashed changes
 					},
 					"behaviors": {
-						"Pin": {
+						"Sine": {
 							"properties": {
-								"destroy": false
+								"movement": "angle",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
 							}
 						},
 						"Pin": {
@@ -1742,25 +805,16 @@
 						}
 					},
 					"world": {
-<<<<<<< Updated upstream
-						"x": 23,
-						"y": 1227,
-						"width": 143,
-						"height": 63,
-						"originX": 0,
-						"originY": 0,
-=======
 						"x": 456,
 						"y": 955,
 						"width": 96.06021695730254,
 						"height": 112.99169404689903,
 						"originX": 0.5,
 						"originY": 0.5,
->>>>>>> Stashed changes
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 0,
@@ -1768,8 +822,6 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
-=======
 					"type": "Characterss",
 					"properties": {
 						"initially-visible": true,
@@ -2053,21 +1105,12 @@
 						}
 					},
 					"world": {
-<<<<<<< HEAD
-						"x": -233,
-						"y": 1571,
-						"width": 720,
-						"height": 100,
-						"originX": 0,
-						"originY": 0,
-=======
 						"x": 585.3048022968718,
 						"y": 52.42644717738108,
 						"width": 54.00610489903428,
 						"height": 54.00610489903428,
 						"originX": 0.5,
 						"originY": 0.5,
->>>>>>> f575587f03b0ca3c9ba43749f2e758c380a7fa6f
 						"color": [
 							1,
 							1,
@@ -2205,7 +1248,6 @@
 					}
 				},
 				{
->>>>>>> Stashed changes
 					"type": "CardBawah",
 					"properties": {
 						"initially-visible": true,

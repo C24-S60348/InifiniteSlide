@@ -7,78 +7,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "brick",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 36,
-					"instanceVariables": {
-						"notDrag": false
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-=======
-					"uid": 426,
-					"instanceVariables": {},
-					"behaviors": {},
->>>>>>> Stashed changes
-					"world": {
-						"x": 185,
-						"y": 1378,
-						"width": 388,
-						"height": 127,
-						"originX": 0.5368663594470046,
-						"originY": 1.5608108108108107,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "brick",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 584,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 561,
-						"y": 1378,
-						"width": 388,
-						"height": 127,
-						"originX": 0.5368663594470046,
-						"originY": 1.5608108108108107,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite4",
 					"properties": {
 						"initially-visible": true,
@@ -392,8 +320,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -234,
-						"y": 1634,
+						"x": 0,
+						"y": 1181,
 						"width": 720,
 						"height": 100,
 						"originX": 0,
