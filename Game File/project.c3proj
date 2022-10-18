@@ -228,7 +228,11 @@
 			"messagebox",
 			"Layout2_Grave",
 			"Tilemap5",
-			"PlayerSkeleton"
+			"PlayerSkeleton",
+			"JS",
+			"JS2",
+			"JS3",
+			"JS4"
 		],
 		"subfolders": []
 	},
