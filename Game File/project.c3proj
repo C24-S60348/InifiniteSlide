@@ -235,7 +235,7 @@
 			"JS4",
 			"Sprite16",
 			"TiledBackground6",
-			"Sprite17",
+			"Sprite17_BackgroundLayout2",
 			"Sprite18",
 			"Sprite19",
 			"Sprite20",
@@ -247,7 +247,15 @@
 			"UntitledDesign2",
 			"a7cab76d29cff2d5b8c5fa39e62573b",
 			"UntitledDesign3",
-			"play2"
+			"play2",
+			"TilemapLayout2",
+			"Sprite25",
+			"Sprite26",
+			"Sprite27",
+			"Sprite28",
+			"Tilemap2",
+			"Camera",
+			"SpriteFont2"
 		],
 		"subfolders": []
 	},

@@ -1,14 +1,14 @@
 {
-	"name": "coins",
+	"name": "Camera",
 	"plugin-id": "Sprite",
-	"sid": 929427659558843,
+	"sid": 498771408025063,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 785574474629266
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 949511752587329
 		}
 	],
 	"effectTypes": [],
@@ -17,39 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 500,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4971182,
-						"collisionPoly": {
-							"points": [
-								0.182,
-								0.182,
-								0.5,
-								0,
-								0.816,
-								0.182,
-								0.998,
-								0.5,
-								0.816,
-								0.816,
-								0.5,
-								0.998,
-								0.182,
-								0.816,
-								0,
-								0.5
-							]
-						},
+						"imageSpriteId": 8832446,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 977597152947002,
+				"sid": 743806044615265,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

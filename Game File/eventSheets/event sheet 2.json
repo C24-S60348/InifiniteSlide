@@ -18,9 +18,9 @@
 						{
 							"id": "is-overlapping-another-object",
 							"objectClass": "PlayerSkeleton",
-							"sid": 276955421367914,
+							"sid": 303387804292045,
 							"parameters": {
-								"object": "Layout2_Floor"
+								"object": "Sprite17_BackgroundLayout2"
 							}
 						},
 						{
@@ -43,10 +43,10 @@
 						{
 							"id": "set-speed",
 							"objectClass": "PlayerSkeleton",
-							"sid": 668001678003774,
+							"sid": 607807682613165,
 							"behaviorType": "8Direction",
 							"parameters": {
-								"speed": "500"
+								"speed": "1000"
 							}
 						},
 						{
@@ -71,9 +71,9 @@
 						{
 							"id": "is-overlapping-another-object",
 							"objectClass": "PlayerSkeleton",
-							"sid": 856837211427677,
+							"sid": 575423300841589,
 							"parameters": {
-								"object": "Layout2_Floor"
+								"object": "Sprite17_BackgroundLayout2"
 							}
 						},
 						{
@@ -400,6 +400,38 @@
 				1,
 				1
 			]
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Camera",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 935265483634183
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "Camera",
+							"sid": 851517960759936,
+							"parameters": {
+								"x": "lerp(Self.X,PlayerSkeleton.X,1)",
+								"y": "lerp(Self.Y,PlayerSkeleton.Y,1)"
+							}
+						}
+					],
+					"sid": 403520118933575
+				}
+			],
+			"sid": 624511240528874
 		}
 	],
 	"sid": 711607151603571

@@ -7,6335 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Layout2_Border",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 16,
-						"tile-height": 16,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 1,
-						"tile-y-spacing": 1,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 106,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"ownData": {
-						"tilemapData": {
-							"width": 40,
-							"height": 60,
-							"max-width": 92,
-							"max-height": 164,
-							"data": "60x134,104x0,60x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,162x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,2x134,56x0,2x134,104x0,8x134,2x234,4x0,234,45x134,104x0,8x134,2x234,4x0,234,45x134,8632x0"
-						},
-						"tile-width": 16,
-						"tile-height": 16,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 1,
-						"tile-y-spacing": 1
-					},
-					"world": {
-						"x": -736,
-						"y": 1296,
-						"width": 640,
-						"height": 960,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 436,
-					"instanceVariables": {
-						"namaLevel": "Layout 3"
-					},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 10,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": -160,
-						"y": 320,
-						"width": 46.222305317488235,
-						"height": 48,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "play",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 437,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -736,
-						"y": 1072,
-						"width": 64,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "play",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 439,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -352,
-						"y": 1072,
-						"width": 64,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "coins",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 441,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -96,
-						"y": 96,
-						"width": 49,
-						"height": 44,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 440,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 445,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 446,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 447,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 448,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 449,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 450,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 451,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 452,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 992,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 587,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 589,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 590,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 591,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 592,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 593,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 594,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 595,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 596,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 928,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 597,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 598,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 599,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 600,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 601,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 602,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 603,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 604,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 605,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 864,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 606,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 607,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 608,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 609,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 610,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 611,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 612,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 613,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 614,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 800,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 615,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 616,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 617,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 618,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 619,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 620,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 621,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 622,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 623,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 736,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 624,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 625,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 626,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 627,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 628,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 629,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 630,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 631,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 632,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 672,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 633,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 634,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 635,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 636,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 637,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 638,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 639,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 640,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 641,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 608,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 642,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 643,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 644,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 645,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 646,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 647,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 648,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 649,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 650,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 544,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 651,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 652,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 653,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 654,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 655,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 656,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 657,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 658,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 659,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 480,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 660,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 661,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 662,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 663,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 664,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 665,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 666,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 667,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 668,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 416,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 669,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 670,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 671,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 672,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 673,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 674,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 675,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 676,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 677,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 352,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 678,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 679,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 680,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 681,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 682,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 683,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 684,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 685,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 686,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 288,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 687,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 688,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 689,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 690,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 691,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 692,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 693,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 694,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 695,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 816,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1124088x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 224,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 696,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -832,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 697,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -768,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 698,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -704,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 699,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -640,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 700,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -576,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 701,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -512,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 702,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -448,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 703,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -384,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap5",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 704,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 32,
-							"height": 32,
-							"max-width": 792,
-							"max-height": 1432,
-							"data": "3x4,26x0,3x4,1400x0,4,30x0,4,1400x0,4,30x0,4,38632x0,4,30x0,4,1400x0,4,30x0,4,1400x0,3x4,26x0,3x4,1089720x0"
-						},
-						"tile-width": 2,
-						"tile-height": 2,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -320,
-						"y": 160,
-						"width": 64,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "play",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 438,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -544,
-						"y": 1072,
-						"width": 64,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "PlayerSkeleton",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 432,
-					"instanceVariables": {},
-					"behaviors": {
-						"8Direction": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-4",
-								"set-angle": "no",
-								"allow-sliding": false,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": -192,
-						"y": 560,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite17",
+					"type": "Sprite17_BackgroundLayout2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -6360,6 +32,61 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TilemapLayout2",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 115,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 90,
+							"height": 160,
+							"max-width": 90,
+							"max-height": 160,
+							"data": "80x20,80x75,20,8x0,50,4x0,50,144x0,75,20,8x0,50,4x0,50,144x0,75,20,8x0,50,4x0,50,144x0,75,20,8x0,50,4x0,50,144x0,75,20,8x0,67,4x0,67,144x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,3x0,8,154x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,75,20,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,147x0,9,10x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,158x0,2x75,154x0,9,3x73,2x75,154x0,9,3x73,2x75,159x0,75,159x0,75,159x0,75,159x0,75,154x0,9,3x73,2x75,154x0,9,3x73,2x75,158x0,161x75"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 1440,
+						"height": 2560,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
 						"zElevation": 0
 					}
 				}
@@ -6398,13 +125,293 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Layout2_Grave",
+					"type": "Tilemap2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 106,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 960,
+						"y": 160,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap2",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 116,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 912,
+						"y": 1200,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap2",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 117,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 1120,
+						"y": 32,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap2",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 118,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 1168,
+						"y": 1920,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap2",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 119,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": 16,
+						"y": 1872,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap2",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
 					},
 					"uid": 423,
 					"instanceVariables": {},
@@ -6416,31 +423,50 @@
 							}
 						}
 					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
 					"world": {
-						"x": -192,
-						"y": -672,
+						"x": 672,
+						"y": 2480,
 						"width": 64,
 						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Layout2_Grave",
+					"type": "Tilemap2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
 					},
 					"uid": 424,
 					"instanceVariables": {},
@@ -6452,31 +478,50 @@
 							}
 						}
 					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
 					"world": {
-						"x": -64,
-						"y": -480,
+						"x": 624,
+						"y": 1392,
 						"width": 64,
 						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Layout2_Grave",
+					"type": "Tilemap2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
 					},
 					"uid": 425,
 					"instanceVariables": {},
@@ -6488,9 +533,99 @@
 							}
 						}
 					},
+					"ownData": {
+						"tilemapData": {
+							"width": 4,
+							"height": 4,
+							"max-width": 136,
+							"max-height": 240,
+							"data": "4x8,236x0,4x8,236x0,4x8,236x0,4x8,31916x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
 					"world": {
-						"x": -512,
-						"y": -288,
+						"x": 1360,
+						"y": 1456,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 605326036438430,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 2",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "PlayerSkeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 432,
+					"instanceVariables": {},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-4",
+								"set-angle": "no",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 48,
+						"y": 192,
 						"width": 64,
 						"height": 64,
 						"originX": 0.5,
@@ -6506,9 +641,198 @@
 					}
 				},
 				{
-					"type": "Layout2_Grave",
+					"type": "Sprite3",
 					"properties": {
 						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 436,
+					"instanceVariables": {
+						"namaLevel": "Layout 3"
+					},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 1344,
+						"y": 2528,
+						"width": 46.222305317488235,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "play",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 437,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": -816,
+						"y": 1232,
+						"width": 64,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "play",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 439,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": -368,
+						"y": 1184,
+						"width": 64,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.01896147458544606,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "coins",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 441,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 576,
+						"y": 48,
+						"width": 49,
+						"height": 44,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "play",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 438,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": -608,
+						"y": 1264,
+						"width": 64,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Camera",
+					"properties": {
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6517,18 +841,17 @@
 					"uid": 427,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
+						"ScrollTo": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": -448,
-						"y": -96,
-						"width": 64,
-						"height": 64,
+						"x": 48,
+						"y": 192,
+						"width": 32,
+						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -6542,215 +865,46 @@
 					}
 				},
 				{
-					"type": "Layout2_Grave",
+					"type": "SpriteFont2",
 					"properties": {
+						"text": "25",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
 					"uid": 428,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isMoney": true,
+						"notDrag": false
+					},
 					"behaviors": {
-						"Solid": {
+						"Pin": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"destroy": false
 							}
 						}
 					},
 					"world": {
-						"x": -320,
-						"y": -544,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 608,
+						"y": 32,
+						"width": 93,
+						"height": 72,
+						"originX": 0,
+						"originY": 0,
 						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Layout2_Grave",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 429,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -128,
-						"y": -800,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Layout2_Grave",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 430,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -448,
-						"y": -736,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Layout2_Grave",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 431,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -64,
-						"y": -160,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Layout2_Grave",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 433,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -384,
-						"y": -864,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Layout2_Grave",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 434,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -256,
-						"y": -352,
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
+							0.9764705882352941,
+							0.9764705882352941,
+							0.9764705882352941,
 							1
 						],
 						"angle": 0,
@@ -6758,7 +912,7 @@
 					}
 				}
 			],
-			"sid": 605326036438430,
+			"sid": 464977650197698,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
