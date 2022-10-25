@@ -4,45 +4,39 @@
 	"sid": 980796764902159,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 446084435198081
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 2000,
-						"height": 2000,
+						"width": 502,
+						"height": 394,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.5710659898477157,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7290913,
+						"imageSpriteId": 1985455,
 						"collisionPoly": {
 							"points": [
-								0,
+								0.00199203187250996,
 								0,
 								0.5,
 								0,
-								0.9995,
+								0.9975099601593626,
 								0,
-								0.9995,
+								0.9975099601593626,
+								0.5710659898477157,
+								0.9975099601593626,
+								1,
 								0.5,
-								0.9995,
-								0.9995,
-								0.5,
-								0.9995,
-								0,
-								0.9995,
-								0,
-								0.5
+								1,
+								0.00199203187250996,
+								1,
+								0.00199203187250996,
+								0.5710659898477157
 							]
 						},
 						"useCollisionPoly": true,

@@ -16,19 +16,11 @@
 						"live-preview": false
 					},
 					"uid": 733,
-					"instanceVariables": {
-						"lockNumber": "45,45,45",
-						"numbertest": 0
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"DragDrop": {
 							"properties": {
 								"axes": "vertical-only",
-								"enabled": true
-							}
-						},
-						"Tween": {
-							"properties": {
 								"enabled": true
 							}
 						}

@@ -3,30 +3,12 @@
 	"plugin-id": "Sprite",
 	"sid": 320366260738879,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "lockNumber",
-			"type": "string",
-			"desc": "",
-			"sid": 995387239536953
-		},
-		{
-			"name": "numbertest",
-			"type": "number",
-			"desc": "",
-			"sid": 654833997743020
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "DragnDrop",
 			"name": "DragDrop",
 			"sid": 465222205327090
-		},
-		{
-			"behaviorId": "Tween",
-			"name": "Tween",
-			"sid": 292397318897421
 		}
 	],
 	"effectTypes": [],
