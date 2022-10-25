@@ -294,6 +294,15 @@
 					"parameters": {
 						"opacity": "0"
 					}
+				},
+				{
+					"id": "set-item",
+					"objectClass": "LocalStorage",
+					"sid": 579493410733750,
+					"parameters": {
+						"key": "savemoney",
+						"value": "money"
+					}
 				}
 			],
 			"sid": 927081472309078

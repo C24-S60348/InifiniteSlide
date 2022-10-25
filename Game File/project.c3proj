@@ -79,6 +79,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -268,7 +276,8 @@
 			"PlayerSkeleton2",
 			"Text4",
 			"ebc4d7dd95cd86618469dc81965afa",
-			"adfa"
+			"adfa",
+			"LocalStorage"
 		],
 		"subfolders": []
 	},
@@ -300,7 +309,8 @@
 			"Map",
 			"ButtonClick",
 			"Event sheet Level 4",
-			"Event sheet Level tutorial,1,2"
+			"Event sheet Level tutorial,1,2",
+			"home"
 		],
 		"subfolders": []
 	},
