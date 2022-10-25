@@ -263,7 +263,11 @@
 			"Sprite28",
 			"Tilemap2",
 			"Camera",
-			"SpriteFont2"
+			"SpriteFont2",
+			"Hint_buttion_Layout2",
+			"Text3",
+			"f6298701d164ad6c601478c8878b",
+			"Screen"
 		],
 		"subfolders": []
 	},
@@ -275,30 +279,27 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
+			"Tutorial",
 			"Map",
 			"Tools",
 			"Shop",
-			"Layout 2",
+			"Level 4",
 			"home",
-			"Layout 5",
-			"Layout 3",
-			"Layout 4",
+			"Level 1",
+			"Level 2",
+			"Level 3",
 			"Choose Levels Layout"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
+			"Event sheet Level 3",
 			"Main",
 			"Map",
 			"ButtonClick",
-			"Event sheet 2",
-			"Event sheet 3",
-			"Event sheet 4",
-			"Event sheet 5",
-			"Event sheet 6"
+			"Event sheet Level 4",
+			"Event sheet Level tutorial,1,2"
 		],
 		"subfolders": []
 	},

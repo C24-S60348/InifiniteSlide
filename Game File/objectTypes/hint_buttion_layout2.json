@@ -1,14 +1,14 @@
 {
-	"name": "coins",
+	"name": "Hint_buttion_Layout2",
 	"plugin-id": "Sprite",
-	"sid": 929427659558843,
+	"sid": 115011402421203,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
 			"name": "Pin",
-			"sid": 635178418205260
+			"sid": 103894634261531
 		}
 	],
 	"effectTypes": [],
@@ -17,39 +17,39 @@
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 500,
+						"width": 3302,
+						"height": 1302,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4971182,
+						"imageSpriteId": 8071861,
 						"collisionPoly": {
 							"points": [
-								0.182,
-								0.182,
+								0.025741956076572908,
+								0.1574500885244154,
+								0.5012113685538594,
+								0.15130578903924832,
+								0.9642640638900193,
+								0.1574500885244154,
+								0.9993943064809206,
+								0.7795698455951179,
+								0.9691096305269533,
+								0.9216589861751152,
 								0.5,
+								0.9984639016897081,
+								0.030587522713506964,
+								0.9216589861751152,
 								0,
-								0.816,
-								0.182,
-								0.998,
-								0.5,
-								0.816,
-								0.816,
-								0.5,
-								0.998,
-								0.182,
-								0.816,
-								0,
-								0.5
+								0.767281129429783
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 977597152947002,
+				"sid": 245712310817633,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

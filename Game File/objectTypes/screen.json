@@ -1,7 +1,7 @@
 {
-	"name": "Sprite19",
+	"name": "Screen",
 	"plugin-id": "Sprite",
-	"sid": 204661806702332,
+	"sid": 938787690027240,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 400,
-						"height": 400,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8646988,
-						"collisionPoly": {
-							"points": [
-								0.2,
-								0.2,
-								0.5,
-								0.15,
-								0.7975,
-								0.2,
-								0.8475,
-								0.5,
-								0.7975,
-								0.7975,
-								0.5,
-								0.8475,
-								0.2,
-								0.7975,
-								0.15,
-								0.5
-							]
-						},
+						"imageSpriteId": 2166635,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 266575343967670,
+				"sid": 842907910859472,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

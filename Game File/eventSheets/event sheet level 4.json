@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 2",
+	"name": "Event sheet Level 4",
 	"events": [
 		{
 			"eventType": "group",
@@ -432,6 +432,26 @@
 				}
 			],
 			"sid": 624511240528874
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap",
+					"objectClass": "Touch",
+					"sid": 434331873054392
+				},
+				{
+					"id": "layer-is-visible",
+					"objectClass": "System",
+					"sid": 150736711638096,
+					"parameters": {
+						"layer": "\"GUI\""
+					}
+				}
+			],
+			"actions": [],
+			"sid": 531862320360703
 		}
 	],
 	"sid": 711607151603571
