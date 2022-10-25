@@ -602,6 +602,15 @@
 					"parameters": {
 						"text": "money"
 					}
+				},
+				{
+					"id": "set-item",
+					"objectClass": "LocalStorage",
+					"sid": 476646170847312,
+					"parameters": {
+						"key": "savemoney",
+						"value": "money"
+					}
 				}
 			],
 			"sid": 693001459905879
