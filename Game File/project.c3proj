@@ -256,10 +256,18 @@
 			"Tilemap2",
 			"Camera",
 			"SpriteFont2",
-			"Hint_buttion_Layout2",
+			"Hint_button_Layout2",
 			"Text3",
 			"f6298701d164ad6c601478c8878b",
-			"Screen"
+			"Screen",
+			"UntitledDesign4",
+			"UntitledDesign5",
+			"UntitledDesign6",
+			"UntitledDesign7",
+			"StartHere",
+			"PlayerSkeleton2",
+			"Text4",
+			"ebc4d7dd95cd86618469dc81965afa"
 		],
 		"subfolders": []
 	},
@@ -319,14 +327,6 @@
 					}
 				},
 				{
-					"name": "sliding(walk).webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 689708702600019,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
 					"name": "startgame.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 568644276134024,
@@ -338,6 +338,14 @@
 					"name": "success.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 945042386633024,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "sliding(walk).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 739328569226491,
 					"file-info": {
 						"purpose": "none"
 					}
