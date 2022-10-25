@@ -74,11 +74,19 @@
 						"live-preview": false
 					},
 					"uid": 101,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"lockNumber": "45,45,45",
+						"numbertest": 0
+					},
 					"behaviors": {
 						"DragDrop": {
 							"properties": {
 								"axes": "vertical-only",
+								"enabled": true
+							}
+						},
+						"Tween": {
+							"properties": {
 								"enabled": true
 							}
 						}

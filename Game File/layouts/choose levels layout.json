@@ -136,6 +136,50 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "dragger",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 429,
+					"instanceVariables": {
+						"lockNumber": "78,-422,-922",
+						"numbertest": 0
+					},
+					"behaviors": {
+						"DragDrop": {
+							"properties": {
+								"axes": "horizontal-only",
+								"enabled": true
+							}
+						},
+						"Tween": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": -422,
+						"y": 254,
+						"width": 1605,
+						"height": 443,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.28120676430731,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite24",
 					"properties": {
 						"initially-visible": true,
@@ -146,7 +190,13 @@
 					},
 					"uid": 41,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 356,
 						"y": 489,
@@ -175,10 +225,16 @@
 					},
 					"uid": 55,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 874,
-						"y": 501,
+						"y": 496,
 						"width": 413,
 						"height": 296,
 						"originX": 0.5,
@@ -269,7 +325,13 @@
 					},
 					"uid": 54,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": -133,
 						"y": 484,
@@ -297,8 +359,16 @@
 						"live-preview": false
 					},
 					"uid": 47,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"level": 1
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": -137,
 						"y": 485,
@@ -326,8 +396,16 @@
 						"live-preview": false
 					},
 					"uid": 44,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"level": 2
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 357,
 						"y": 489,
@@ -355,11 +433,19 @@
 						"live-preview": false
 					},
 					"uid": 42,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"level": 3
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 877,
-						"y": 499,
+						"y": 494,
 						"width": 448,
 						"height": 467,
 						"originX": 0.5,
