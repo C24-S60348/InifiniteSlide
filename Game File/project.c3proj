@@ -144,6 +144,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
@@ -264,7 +272,7 @@
 			"Tilemap2",
 			"Camera",
 			"SpriteFont2",
-			"Hint_buttion_Layout2",
+			"Hint_button_Layout2",
 			"Text3",
 			"f6298701d164ad6c601478c8878b",
 			"Screen",
@@ -310,7 +318,8 @@
 			"ButtonClick",
 			"Event sheet Level 4",
 			"Event sheet Level tutorial,1,2",
-			"home"
+			"home",
+			"chooselevels"
 		],
 		"subfolders": []
 	},
@@ -338,14 +347,6 @@
 					}
 				},
 				{
-					"name": "sliding(walk).webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 689708702600019,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
 					"name": "startgame.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 568644276134024,
@@ -357,6 +358,14 @@
 					"name": "success.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 945042386633024,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "sliding(walk).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 739328569226491,
 					"file-info": {
 						"purpose": "none"
 					}

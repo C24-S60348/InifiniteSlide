@@ -129,9 +129,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "key-is-down",
+							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 551654457343757,
+							"sid": 190289878131863,
 							"parameters": {
 								"key": 39
 							}
@@ -143,9 +143,14 @@
 							"isInverted": true
 						},
 						{
-							"id": "is-flipped",
+							"id": "compare-speed",
 							"objectClass": "PlayerSkeleton",
-							"sid": 761081026286994
+							"sid": 545532156151889,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
 						}
 					],
 					"actions": [
@@ -158,11 +163,14 @@
 							}
 						},
 						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 192018808786150,
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 986643139357724,
 							"parameters": {
-								"state": "not-flipped"
+								"audio-file": "sliding(walk)",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -172,26 +180,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "key-is-down",
+							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 590997132994283,
+							"sid": 870216781666893,
 							"parameters": {
 								"key": 38
 							}
 						},
 						{
-							"id": "is-flipped",
+							"id": "compare-speed",
 							"objectClass": "PlayerSkeleton",
-							"sid": 111146266109982
+							"sid": 168203606051173,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 410989149215440,
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 870741121243107,
 							"parameters": {
-								"state": "not-flipped"
+								"audio-file": "sliding(walk)",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -201,26 +217,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "key-is-down",
+							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 346851252183140,
+							"sid": 363179516802539,
 							"parameters": {
 								"key": 40
 							}
 						},
 						{
-							"id": "is-flipped",
+							"id": "compare-speed",
 							"objectClass": "PlayerSkeleton",
-							"sid": 174426561954405
+							"sid": 323094231305549,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 993361952853776,
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 889819245395568,
 							"parameters": {
-								"state": "not-flipped"
+								"audio-file": "sliding(walk)",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -230,9 +254,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "key-is-down",
+							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 590310533604030,
+							"sid": 378890195065240,
 							"parameters": {
 								"key": 37
 							}
@@ -243,9 +267,14 @@
 							"sid": 885355356224396
 						},
 						{
-							"id": "is-flipped",
+							"id": "compare-speed",
 							"objectClass": "PlayerSkeleton",
-							"sid": 788212375957449
+							"sid": 974420554130027,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"comparison": 0,
+								"speed": "0"
+							}
 						}
 					],
 					"actions": [
@@ -258,11 +287,14 @@
 							}
 						},
 						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 516967786360340,
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 520545659382202,
 							"parameters": {
-								"state": "not-flipped"
+								"audio-file": "sliding(walk)",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -434,24 +466,100 @@
 			"sid": 624511240528874
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "Hint",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-tap",
-					"objectClass": "Touch",
-					"sid": 434331873054392
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 126450790557551
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 106954757693938,
+							"parameters": {
+								"layer": "\"Hint Layer\"",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 327174000200870
 				},
 				{
-					"id": "layer-is-visible",
-					"objectClass": "System",
-					"sid": 150736711638096,
-					"parameters": {
-						"layer": "\"GUI\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-tap-object",
+							"objectClass": "Touch",
+							"sid": 513776998151416,
+							"parameters": {
+								"object": "Hint_button_Layout2"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 641690673940929,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "layer-is-visible",
+									"objectClass": "System",
+									"sid": 272210965625014,
+									"parameters": {
+										"layer": "\"Hint Layer\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-layer-visible",
+									"objectClass": "System",
+									"sid": 177095617280789,
+									"parameters": {
+										"layer": "\"Hint Layer\"",
+										"visibility": "invisible"
+									}
+								}
+							],
+							"sid": 695778564916830
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 233122640826426
+								}
+							],
+							"actions": [
+								{
+									"id": "set-layer-visible",
+									"objectClass": "System",
+									"sid": 616747142356820,
+									"parameters": {
+										"layer": "\"Hint Layer\"",
+										"visibility": "visible"
+									}
+								}
+							],
+							"sid": 876423009150088
+						}
+					]
 				}
 			],
-			"actions": [],
-			"sid": 531862320360703
+			"sid": 964378057636884
 		}
 	],
 	"sid": 711607151603571
