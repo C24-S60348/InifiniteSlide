@@ -178,7 +178,7 @@
 					"objectClass": "System",
 					"sid": 561079351238609,
 					"parameters": {
-						"layout": "Tutorial"
+						"layout": "Layout 1"
 					}
 				}
 			],
@@ -293,15 +293,6 @@
 					"sid": 194328350470873,
 					"parameters": {
 						"opacity": "0"
-					}
-				},
-				{
-					"id": "set-item",
-					"objectClass": "LocalStorage",
-					"sid": 579493410733750,
-					"parameters": {
-						"key": "savemoney",
-						"value": "money"
 					}
 				}
 			],

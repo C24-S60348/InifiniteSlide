@@ -79,14 +79,6 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "LocalStorage",
-			"name": "Local storage",
-			"author": "Scirra",
-			"version": "r308.2",
-			"bundled": false
-		},
-		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -271,21 +263,7 @@
 			"Sprite28",
 			"Tilemap2",
 			"Camera",
-			"SpriteFont2",
-			"Hint_button_Layout2",
-			"Text3",
-			"f6298701d164ad6c601478c8878b",
-			"Screen",
-			"UntitledDesign4",
-			"UntitledDesign5",
-			"UntitledDesign6",
-			"UntitledDesign7",
-			"StartHere",
-			"PlayerSkeleton2",
-			"Text4",
-			"ebc4d7dd95cd86618469dc81965afa",
-			"adfa",
-			"LocalStorage"
+			"SpriteFont2"
 		],
 		"subfolders": []
 	},
@@ -297,29 +275,30 @@
 	},
 	"layouts": {
 		"items": [
-			"Tutorial",
+			"Layout 1",
 			"Map",
 			"Tools",
 			"Shop",
-			"Level 4",
+			"Layout 2",
 			"home",
-			"Level 1",
-			"Level 2",
-			"Level 3",
+			"Layout 5",
+			"Layout 3",
+			"Layout 4",
 			"Choose Levels Layout"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet Level 3",
+			"Event sheet 1",
 			"Main",
 			"Map",
 			"ButtonClick",
-			"Event sheet Level 4",
-			"Event sheet Level tutorial,1,2",
-			"home",
-			"chooselevels"
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4",
+			"Event sheet 5",
+			"chooselevel"
 		],
 		"subfolders": []
 	},
@@ -347,6 +326,14 @@
 					}
 				},
 				{
+					"name": "sliding(walk).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 689708702600019,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
 					"name": "startgame.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 568644276134024,
@@ -358,14 +345,6 @@
 					"name": "success.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 945042386633024,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "sliding(walk).webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 739328569226491,
 					"file-info": {
 						"purpose": "none"
 					}

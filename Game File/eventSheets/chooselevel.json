@@ -1,0 +1,274 @@
+{
+	"name": "chooselevel",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 125141634700626
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Sprite24",
+					"sid": 910577497439653,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "dragger",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "UntitledDesign2",
+					"sid": 849809882119517,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "dragger",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 379184165658466
+		},
+		{
+			"eventType": "comment",
+			"text": "had  limit"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "dragger",
+					"sid": 157354754623350,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "90"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "dragger",
+					"sid": 667389809599917,
+					"parameters": {
+						"x": "90"
+					}
+				}
+			],
+			"sid": 720226235178619
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "dragger",
+					"sid": 923710399326916,
+					"parameters": {
+						"comparison": 2,
+						"x-co-ordinate": "-Self.Width + 720 -50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "dragger",
+					"sid": 897467288917552,
+					"parameters": {
+						"x": "-Self.Width + 720 -50"
+					}
+				}
+			],
+			"sid": 562932490700483
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-touch-end",
+					"objectClass": "Touch",
+					"sid": 591608975174338
+				}
+			],
+			"actions": [],
+			"sid": 376822603957371,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 975781053595196,
+							"parameters": {
+								"first-value": "int(tokenat(dragger.lockNumber, 0, \",\"))",
+								"comparison": 3,
+								"second-value": "dragger.X+250"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "tween-one-property",
+							"objectClass": "dragger",
+							"sid": 938230637208576,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "int(tokenat(dragger.lockNumber, 0, \",\"))",
+								"time": "0.5",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no"
+							}
+						}
+					],
+					"sid": 254992251256226
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 783514401139858
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 521824828157003,
+							"parameters": {
+								"first-value": "int(tokenat(dragger.lockNumber, 1, \",\"))",
+								"comparison": 3,
+								"second-value": "dragger.X +250"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "tween-one-property",
+							"objectClass": "dragger",
+							"sid": 524031794619252,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "int(tokenat(dragger.lockNumber, 1, \",\"))",
+								"time": "0.5",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no"
+							}
+						}
+					],
+					"sid": 324238430743548
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 183975485813881
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 707891985932636,
+							"parameters": {
+								"first-value": "int(tokenat(dragger.lockNumber, 2, \",\"))",
+								"comparison": 3,
+								"second-value": "dragger.X +250"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "tween-one-property",
+							"objectClass": "dragger",
+							"sid": 822960857497938,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "int(tokenat(dragger.lockNumber, 2, \",\"))",
+								"time": "0.5",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no"
+							}
+						}
+					],
+					"sid": 642911847499169
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 165353414781181
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "UntitledDesign2",
+					"sid": 831292115719549,
+					"parameters": {
+						"width": "432 - abs(Self.X - 360)/5"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Sprite24",
+					"sid": 631837244454848,
+					"parameters": {
+						"width": "413 - abs(Self.X-360)/5"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "UntitledDesign2",
+					"sid": 941694240056880,
+					"parameters": {
+						"height": "436 - abs(Self.X-360)/5"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "Sprite24",
+					"sid": 816981001878008,
+					"parameters": {
+						"height": "296 - abs(Self.X-360)/5"
+					}
+				}
+			],
+			"sid": 842892045776455
+		}
+	],
+	"sid": 744758322301078
+}
