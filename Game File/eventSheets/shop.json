@@ -12,6 +12,16 @@
 			"sid": 236297290977511
 		},
 		{
+			"eventType": "variable",
+			"name": "unlockedThing",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 306807142674415
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "ButtonClick"
 		},
@@ -196,6 +206,24 @@
 									}
 								},
 								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 541719786298967,
+									"parameters": {
+										"variable": "unlockedThing",
+										"value": "unlockedThing & \",\" & Pets.namaPet "
+									}
+								},
+								{
+									"id": "set-item",
+									"objectClass": "LocalStorage",
+									"sid": 692875327622655,
+									"parameters": {
+										"key": "SAVE_UNLOCKED_THING",
+										"value": "unlockedThing"
+									}
+								},
+								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Pets",
 									"sid": 952828666610213,
@@ -273,6 +301,10 @@
 								}
 							],
 							"sid": 440643793316054
+						},
+						{
+							"eventType": "comment",
+							"text": "DUIT TAK CUKUP"
 						},
 						{
 							"eventType": "block",
@@ -429,6 +461,105 @@
 				}
 			],
 			"sid": 649781611220392
+		},
+		{
+			"eventType": "comment",
+			"text": "START"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 128755561409266
+				}
+			],
+			"actions": [],
+			"sid": 415729888753819,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for",
+							"objectClass": "System",
+							"sid": 750143300568175,
+							"parameters": {
+								"name": "\"\"",
+								"start-index": "0",
+								"end-index": "tokencount(unlockedThing, \",\")"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Pets",
+							"sid": 358078733017015,
+							"parameters": {
+								"instance-variable": "namaPet",
+								"comparison": 0,
+								"value": "tokenat(unlockedThing, loopindex, \",\")"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "SpriteFont",
+							"sid": 446987113732485,
+							"parameters": {
+								"instance-variable": "referTo",
+								"comparison": 0,
+								"value": "Pets.namaPet"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite4",
+							"sid": 838809957097221,
+							"parameters": {
+								"instance-variable": "referTo",
+								"comparison": 0,
+								"value": "Pets.namaPet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Pets",
+							"sid": 334320230187116,
+							"parameters": {
+								"frame-number": "0"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Pets",
+							"sid": 473215902950747,
+							"parameters": {
+								"instance-variable": "isLocked",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SpriteFont",
+							"sid": 223219682721855,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Sprite4",
+							"sid": 565603571742464,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 704571328716637
+				}
+			]
 		}
 	],
 	"sid": 527511487892781

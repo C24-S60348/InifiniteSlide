@@ -1,6 +1,8 @@
 -coin system :-
 	get coins 	/
-	buy with coins	
+	buy with coins	/
+
+-save what pets have
 -save level system
 -choose layout yg slide2 (nanti, sbb syak tgh buat)
 -tambah pets

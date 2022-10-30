@@ -2,6 +2,16 @@
 	"name": "Main",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "SAVE_UNLOCKED_THING",
+			"type": "string",
+			"initialValue": "SAVE_UNLOCKED_THING",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 858950115498390
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "ButtonClick"
 		},
@@ -93,6 +103,14 @@
 					"parameters": {
 						"key": "SAVE_COINS"
 					}
+				},
+				{
+					"id": "get-item",
+					"objectClass": "LocalStorage",
+					"sid": 161033162032923,
+					"parameters": {
+						"key": "SAVE_UNLOCKED_THING"
+					}
 				}
 			],
 			"sid": 234874029458760
@@ -128,7 +146,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "SpriteFont",
-							"sid": 732484123021738,
+							"sid": 464929098949341,
 							"parameters": {
 								"instance-variable": "isMoney"
 							}
@@ -138,15 +156,40 @@
 						{
 							"id": "set-text",
 							"objectClass": "SpriteFont",
-							"sid": 316455930070037,
+							"sid": 562630396981060,
 							"parameters": {
 								"text": "money"
 							}
 						}
 					],
-					"sid": 276585012180072
+					"sid": 820025690824974
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-item-get",
+					"objectClass": "LocalStorage",
+					"sid": 536879285996556,
+					"parameters": {
+						"key": "SAVE_UNLOCKED_THING"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 122029559724111,
+					"parameters": {
+						"variable": "unlockedThing",
+						"value": "LocalStorage.ItemValue"
+					}
+				}
+			],
+			"sid": 741090542699097
 		}
 	],
 	"sid": 621771088166115

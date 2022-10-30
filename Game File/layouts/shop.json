@@ -34,8 +34,8 @@
 						}
 					},
 					"world": {
-						"x": 0,
-						"y": 0,
+						"x": 742,
+						"y": -52,
 						"width": 721,
 						"height": 1866,
 						"originX": 0,
@@ -478,14 +478,14 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Kucing",
-						"initial-frame": 0,
+						"initial-frame": 1,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 190,
 					"instanceVariables": {
 						"namaPet": "kucing",
-						"isLocked": false
+						"isLocked": true
 					},
 					"behaviors": {
 						"Sine": {
@@ -530,14 +530,14 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Anjing",
-						"initial-frame": 0,
+						"initial-frame": 1,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 191,
 					"instanceVariables": {
 						"namaPet": "anjir",
-						"isLocked": false
+						"isLocked": true
 					},
 					"behaviors": {
 						"Sine": {
@@ -1990,92 +1990,6 @@
 					"world": {
 						"x": 506.0385701560167,
 						"y": 774.9767320974752,
-						"width": 117,
-						"height": 54.57575757575762,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 592,
-					"instanceVariables": {
-						"notDrag": true,
-						"referTo": ""
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 326.17278751806725,
-						"y": 1150.558343795907,
-						"width": 36.07426227804506,
-						"height": 36.07426227804506,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "SpriteFont",
-					"properties": {
-						"text": "400",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1.2,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "left",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "center"
-					},
-					"uid": 593,
-					"instanceVariables": {
-						"isMoney": false,
-						"notDrag": true,
-						"referTo": ""
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 409.7144664043194,
-						"y": 1150.558343795907,
 						"width": 117,
 						"height": 54.57575757575762,
 						"originX": 0.5,
