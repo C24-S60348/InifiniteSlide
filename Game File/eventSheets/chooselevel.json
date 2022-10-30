@@ -40,6 +40,42 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "UntitledDesign2",
+					"sid": 568471641244638,
+					"parameters": {
+						"instance-variable": "sizeX",
+						"value": "Self.Width"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "UntitledDesign2",
+					"sid": 870632754989762,
+					"parameters": {
+						"instance-variable": "sizeY",
+						"value": "Self.Height"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Sprite24",
+					"sid": 873587289001038,
+					"parameters": {
+						"instance-variable": "sizeX",
+						"value": "Self.Width"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Sprite24",
+					"sid": 872259388183181,
+					"parameters": {
+						"instance-variable": "sizeY",
+						"value": "Self.Height"
+					}
 				}
 			],
 			"sid": 379184165658466
@@ -237,33 +273,33 @@
 				{
 					"id": "set-width",
 					"objectClass": "UntitledDesign2",
-					"sid": 831292115719549,
+					"sid": 524533765488805,
 					"parameters": {
-						"width": "432 - abs(Self.X - 360)/5"
+						"width": "Self.sizeX - abs(Self.X - 360)/5"
 					}
 				},
 				{
 					"id": "set-width",
 					"objectClass": "Sprite24",
-					"sid": 631837244454848,
+					"sid": 769804786739870,
 					"parameters": {
-						"width": "413 - abs(Self.X-360)/5"
+						"width": "Self.sizeX - abs(Self.X-360)/5"
 					}
 				},
 				{
 					"id": "set-height",
 					"objectClass": "UntitledDesign2",
-					"sid": 941694240056880,
+					"sid": 100573231269785,
 					"parameters": {
-						"height": "436 - abs(Self.X-360)/5"
+						"height": "Self.sizeY - abs(Self.X-360)/5"
 					}
 				},
 				{
 					"id": "set-height",
 					"objectClass": "Sprite24",
-					"sid": 816981001878008,
+					"sid": 431256566313091,
 					"parameters": {
-						"height": "296 - abs(Self.X-360)/5"
+						"height": "Self.sizeY- abs(Self.X-360)/5"
 					}
 				}
 			],
