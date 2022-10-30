@@ -9,6 +9,18 @@
 			"type": "number",
 			"desc": "",
 			"sid": 520850210545697
+		},
+		{
+			"name": "sizeX",
+			"type": "number",
+			"desc": "",
+			"sid": 904100097883435
+		},
+		{
+			"name": "sizeY",
+			"type": "number",
+			"desc": "",
+			"sid": 375072178420303
 		}
 	],
 	"behaviorTypes": [
@@ -24,14 +36,26 @@
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 500,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 495,
+						"height": 367,
+						"originX": 0.49292929292929294,
+						"originY": 0.5013623978201635,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4620056,
+						"imageSpriteId": 5969750,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.997979797979798,
+								0,
+								0.997979797979798,
+								1,
+								0,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}

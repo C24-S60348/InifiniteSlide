@@ -3,7 +3,20 @@
 	"plugin-id": "Sprite",
 	"sid": 980796764902159,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "sizeX",
+			"type": "number",
+			"desc": "",
+			"sid": 319014803651609
+		},
+		{
+			"name": "sizeY",
+			"type": "number",
+			"desc": "",
+			"sid": 460370186529224
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
@@ -17,14 +30,14 @@
 			{
 				"frames": [
 					{
-						"width": 2000,
-						"height": 2000,
+						"width": 500,
+						"height": 500,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7290913,
+						"imageSpriteId": 5547327,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -47,6 +60,70 @@
 						},
 						"useCollisionPoly": true,
 						"duration": 1
+					},
+					{
+						"width": 500,
+						"height": 500,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7658621,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.998,
+								0,
+								0.998,
+								0.5,
+								0.998,
+								0.998,
+								0.5,
+								0.998,
+								0,
+								0.998,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 500,
+						"height": 500,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2454608,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.998,
+								0,
+								0.998,
+								0.5,
+								0.998,
+								0.998,
+								0.5,
+								0.998,
+								0,
+								0.998,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
 					}
 				],
 				"sid": 263991699557406,
@@ -55,7 +132,7 @@
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 0
 			}
 		],
 		"subfolders": []
