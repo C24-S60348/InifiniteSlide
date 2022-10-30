@@ -114,7 +114,8 @@
 					"uid": 154,
 					"instanceVariables": {
 						"isMoney": true,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -384,7 +385,8 @@
 					},
 					"uid": 68,
 					"instanceVariables": {
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -489,7 +491,8 @@
 					"uid": 216,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -604,7 +607,8 @@
 					"uid": 180,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -683,7 +687,8 @@
 					"uid": 182,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -762,7 +767,8 @@
 					"uid": 185,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -841,7 +847,8 @@
 					"uid": 187,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -906,5 +913,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ButtonClick"
+	"eventSheet": "Main"
 }

@@ -75,7 +75,8 @@
 					},
 					"uid": 40,
 					"instanceVariables": {
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {

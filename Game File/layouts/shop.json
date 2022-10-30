@@ -64,7 +64,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 0,
-						"y": 0,
+						"y": -5,
 						"width": 733.0638991850993,
 						"height": 1300.445978938172,
 						"originX": 0,
@@ -219,7 +219,8 @@
 					"uid": 206,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -266,7 +267,8 @@
 					"uid": 200,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -313,7 +315,8 @@
 					"uid": 201,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -395,7 +398,8 @@
 					"uid": 208,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -406,7 +410,7 @@
 					},
 					"world": {
 						"x": 144,
-						"y": 403,
+						"y": 389,
 						"width": 410,
 						"height": 63,
 						"originX": 0,
@@ -442,7 +446,8 @@
 					"uid": 189,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -505,7 +510,7 @@
 					},
 					"world": {
 						"x": 233,
-						"y": 538,
+						"y": 503,
 						"width": 152.28619154281648,
 						"height": 100.20904832092069,
 						"originX": 0.5,
@@ -557,7 +562,7 @@
 					},
 					"world": {
 						"x": 481,
-						"y": 531,
+						"y": 496,
 						"width": 108.88857219123665,
 						"height": 119.93523893527515,
 						"originX": 0.5,
@@ -577,7 +582,7 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Arnab",
-						"initial-frame": 2,
+						"initial-frame": 1,
 						"enable-collisions": true,
 						"live-preview": false
 					},
@@ -609,7 +614,7 @@
 					},
 					"world": {
 						"x": 221,
-						"y": 704,
+						"y": 691,
 						"width": 96.27298274009469,
 						"height": 113.7771614201119,
 						"originX": 0.5,
@@ -620,7 +625,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.282300641145835,
 						"zElevation": 0
 					}
 				},
@@ -629,7 +634,7 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Ayam",
-						"initial-frame": 2,
+						"initial-frame": 1,
 						"enable-collisions": true,
 						"live-preview": false
 					},
@@ -661,7 +666,7 @@
 					},
 					"world": {
 						"x": 476,
-						"y": 707,
+						"y": 694,
 						"width": 106.61687502825576,
 						"height": 106.61687502825576,
 						"originX": 0.5,
@@ -883,7 +888,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "CHARACTER CHANGED",
+						"text": "PET CHANGED",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -901,7 +906,8 @@
 					"uid": 352,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1095,7 +1101,8 @@
 					"uid": 79,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1132,7 +1139,8 @@
 					},
 					"uid": 204,
 					"instanceVariables": {
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1179,7 +1187,8 @@
 					"uid": 205,
 					"instanceVariables": {
 						"isMoney": true,
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1384,7 +1393,8 @@
 					"uid": 75,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1463,7 +1473,8 @@
 					"uid": 109,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1542,7 +1553,8 @@
 					"uid": 111,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1621,7 +1633,8 @@
 					"uid": 113,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": true
+						"notDrag": true,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -1641,6 +1654,436 @@
 							0,
 							0,
 							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 434,
+					"instanceVariables": {
+						"notDrag": true,
+						"referTo": "arnab"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 174.66666666666669,
+						"y": 773.1666666666667,
+						"width": 36.07426227804506,
+						"height": 36.07426227804506,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "20",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 440,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": true,
+						"referTo": "arnab"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 258.6666666666667,
+						"y": 775.1666666666667,
+						"width": 117,
+						"height": 54.57575757575762,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 445,
+					"instanceVariables": {
+						"notDrag": true,
+						"referTo": "kucing"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 172.49640298851452,
+						"y": 581.3652478829933,
+						"width": 36.07426227804506,
+						"height": 36.07426227804506,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "400",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 446,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": true,
+						"referTo": "kucing"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 256.0380818747667,
+						"y": 584.141750814923,
+						"width": 117,
+						"height": 54.57575757575762,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 447,
+					"instanceVariables": {
+						"notDrag": true,
+						"referTo": "anjir"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 424.9966064390353,
+						"y": 586.3647189116392,
+						"width": 36.07426227804506,
+						"height": 36.07426227804506,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "250",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 448,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": true,
+						"referTo": "anjir"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 508.53828532528746,
+						"y": 589.1412218435688,
+						"width": 117,
+						"height": 54.57575757575762,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 449,
+					"instanceVariables": {
+						"notDrag": true,
+						"referTo": "ayam"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 422.49689126976455,
+						"y": 772.2002291655456,
+						"width": 36.07426227804506,
+						"height": 36.07426227804506,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "500",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 450,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": true,
+						"referTo": "ayam"
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 506.0385701560167,
+						"y": 774.9767320974752,
+						"width": 117,
+						"height": 54.57575757575762,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 592,
+					"instanceVariables": {
+						"notDrag": true,
+						"referTo": ""
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 326.17278751806725,
+						"y": 1150.558343795907,
+						"width": 36.07426227804506,
+						"height": 36.07426227804506,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont",
+					"properties": {
+						"text": "400",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.2,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 593,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": true,
+						"referTo": ""
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 409.7144664043194,
+						"y": 1150.558343795907,
+						"width": 117,
+						"height": 54.57575757575762,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 0,
@@ -1686,5 +2129,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ButtonClick"
+	"eventSheet": "Shop"
 }

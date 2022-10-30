@@ -57,9 +57,96 @@
 						"volume": "0",
 						"tag-optional": "\"bg\""
 					}
+				},
+				{
+					"id": "check-item-exists",
+					"objectClass": "LocalStorage",
+					"sid": 458862028496730,
+					"parameters": {
+						"key": "SAVE_COINS"
+					}
 				}
 			],
 			"sid": 890712258926810
+		},
+		{
+			"eventType": "comment",
+			"text": "Dapatkan data kat localstorage"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-item-exists",
+					"objectClass": "LocalStorage",
+					"sid": 734742517582295,
+					"parameters": {
+						"key": "SAVE_COINS"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "get-item",
+					"objectClass": "LocalStorage",
+					"sid": 231893531328719,
+					"parameters": {
+						"key": "SAVE_COINS"
+					}
+				}
+			],
+			"sid": 234874029458760
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-item-get",
+					"objectClass": "LocalStorage",
+					"sid": 634125308408187,
+					"parameters": {
+						"key": "SAVE_COINS"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 654622436686450,
+					"parameters": {
+						"variable": "money",
+						"value": "LocalStorage.ItemValue"
+					}
+				}
+			],
+			"sid": 567383493423884,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "SpriteFont",
+							"sid": 732484123021738,
+							"parameters": {
+								"instance-variable": "isMoney"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont",
+							"sid": 316455930070037,
+							"parameters": {
+								"text": "money"
+							}
+						}
+					],
+					"sid": 276585012180072
+				}
+			]
 		}
 	],
 	"sid": 621771088166115

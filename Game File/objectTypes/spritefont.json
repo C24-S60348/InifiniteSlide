@@ -15,6 +15,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 203839174537270
+		},
+		{
+			"name": "referTo",
+			"type": "string",
+			"desc": "",
+			"sid": 604300649715244
 		}
 	],
 	"behaviorTypes": [

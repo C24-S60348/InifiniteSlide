@@ -79,6 +79,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -263,7 +271,8 @@
 			"Sprite28",
 			"Tilemap2",
 			"Camera",
-			"SpriteFont2"
+			"SpriteFont2",
+			"LocalStorage"
 		],
 		"subfolders": []
 	},
@@ -298,7 +307,8 @@
 			"Event sheet 3",
 			"Event sheet 4",
 			"Event sheet 5",
-			"chooselevel"
+			"chooselevel",
+			"Shop"
 		],
 		"subfolders": []
 	},

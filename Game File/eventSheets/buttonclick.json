@@ -12,6 +12,26 @@
 			"sid": 378903899986686
 		},
 		{
+			"eventType": "variable",
+			"name": "SAVE_NAMA",
+			"type": "string",
+			"initialValue": "SAVE_NAMA",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 932525129573391
+		},
+		{
+			"eventType": "variable",
+			"name": "SAVE_COINS",
+			"type": "string",
+			"initialValue": "SAVE_COINS",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 208985952244260
+		},
+		{
 			"eventType": "comment",
 			"text": "cardbawah"
 		},
@@ -225,149 +245,6 @@
 				}
 			],
 			"sid": 614380609208080
-		},
-		{
-			"eventType": "comment",
-			"text": "pilih character"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tap-object",
-					"objectClass": "Touch",
-					"sid": 618117496275268,
-					"parameters": {
-						"object": "Characterss"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 337315739874393,
-					"parameters": {
-						"variable": "characterName",
-						"value": "Characterss.namaOrang"
-					}
-				},
-				{
-					"id": "set-animation-frame",
-					"objectClass": "messagebox",
-					"sid": 564781143060538,
-					"parameters": {
-						"frame-number": "1"
-					}
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "messagebox",
-					"sid": 299724546791427,
-					"parameters": {
-						"opacity": "100"
-					}
-				},
-				{
-					"id": "flash",
-					"objectClass": "messagebox",
-					"sid": 306057400191783,
-					"behaviorType": "Flash",
-					"parameters": {
-						"on-time": "0.1",
-						"off-time": "0.1",
-						"duration": "1.0"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 804443032131685,
-					"parameters": {
-						"seconds": "2"
-					}
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "messagebox",
-					"sid": 194328350470873,
-					"parameters": {
-						"opacity": "0"
-					}
-				}
-			],
-			"sid": 927081472309078
-		},
-		{
-			"eventType": "comment",
-			"text": "pilih pets&locked"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tap-object",
-					"objectClass": "Touch",
-					"sid": 783509087723077,
-					"parameters": {
-						"object": "Pets"
-					}
-				},
-				{
-					"id": "is-boolean-instance-variable-set",
-					"objectClass": "Pets",
-					"sid": 273474253881196,
-					"parameters": {
-						"instance-variable": "isLocked"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "messagebox",
-					"sid": 890857280853221,
-					"parameters": {
-						"frame-number": "0"
-					}
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "messagebox",
-					"sid": 942787551757912,
-					"parameters": {
-						"opacity": "100"
-					}
-				},
-				{
-					"id": "flash",
-					"objectClass": "messagebox",
-					"sid": 590617309011537,
-					"behaviorType": "Flash",
-					"parameters": {
-						"on-time": "0.1",
-						"off-time": "0.1",
-						"duration": "1.0"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 116877527235727,
-					"parameters": {
-						"seconds": "2"
-					}
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "messagebox",
-					"sid": 903642435103397,
-					"parameters": {
-						"opacity": "0"
-					}
-				}
-			],
-			"sid": 321359180709468
 		},
 		{
 			"eventType": "comment",

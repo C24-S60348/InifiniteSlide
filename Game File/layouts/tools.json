@@ -179,7 +179,8 @@
 					"uid": 71,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -258,7 +259,8 @@
 					"uid": 120,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -337,7 +339,8 @@
 					"uid": 122,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
@@ -416,7 +419,8 @@
 					"uid": 124,
 					"instanceVariables": {
 						"isMoney": false,
-						"notDrag": false
+						"notDrag": false,
+						"referTo": ""
 					},
 					"behaviors": {
 						"Pin": {
