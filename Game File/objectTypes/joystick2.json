@@ -8,6 +8,7 @@
 			"name": "key",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 939743565026234
 		}
 	],

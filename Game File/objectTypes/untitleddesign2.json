@@ -8,18 +8,21 @@
 			"name": "level",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 520850210545697
 		},
 		{
 			"name": "sizeX",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 904100097883435
 		},
 		{
 			"name": "sizeY",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 375072178420303
 		}
 	],

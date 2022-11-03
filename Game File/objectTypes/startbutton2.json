@@ -8,12 +8,14 @@
 			"name": "OnOff",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 321522752898193
 		},
 		{
 			"name": "item",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 603755042529478
 		}
 	],

@@ -8,12 +8,14 @@
 			"name": "sizeX",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 319014803651609
 		},
 		{
 			"name": "sizeY",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 460370186529224
 		}
 	],

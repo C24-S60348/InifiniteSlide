@@ -432,6 +432,223 @@
 				}
 			],
 			"sid": 624511240528874
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 158142192842078
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "SpriteFont",
+					"sid": 590313339030126,
+					"parameters": {
+						"instance-variable": "isMoney"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 478338832586921,
+					"parameters": {
+						"animation": "characterName",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SpriteFont",
+					"sid": 759517105418534,
+					"parameters": {
+						"text": "money"
+					}
+				}
+			],
+			"sid": 709293277233992
+		},
+		{
+			"eventType": "comment",
+			"text": "player dan pet berjauhan --> pet ikut"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 253673185838214,
+					"parameters": {
+						"first-value": "abs(distance(Sprite.X, Sprite.Y, Pet_ikut.X, Pet_ikut.Y))",
+						"comparison": 4,
+						"second-value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "Pet_ikut",
+					"sid": 377084883300512,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "Sprite.X+ (40*sign(Self.X-Sprite.X))",
+						"y": "Sprite.Y+30",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 780238016097240
+		},
+		{
+			"eventType": "comment",
+			"text": "kekanan"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Pet_ikut",
+					"sid": 305147286212172,
+					"parameters": {
+						"comparison": 2,
+						"x-co-ordinate": "Sprite.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Pet_ikut",
+					"sid": 900182170151671,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 864355829727191
+		},
+		{
+			"eventType": "comment",
+			"text": "kekiri"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 361076093495313
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Pet_ikut",
+					"sid": 239891877182755,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 555740986021457
+		},
+		{
+			"eventType": "comment",
+			"text": "animation gerak"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Pet_ikut",
+					"sid": 966522454566214,
+					"behaviorType": "MoveTo"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-speed",
+					"objectClass": "Pet_ikut",
+					"sid": 285908435298677,
+					"parameters": {
+						"speed": "10"
+					}
+				}
+			],
+			"sid": 835898744775648
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 742866070532679
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-speed",
+					"objectClass": "Pet_ikut",
+					"sid": 445225987671860,
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Pet_ikut",
+					"sid": 716124452634099,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 516924644379998
+		},
+		{
+			"eventType": "comment",
+			"text": "go back"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 399830440824380,
+					"parameters": {
+						"object": "BtnBack"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 665474081940266,
+					"parameters": {
+						"layout": "home"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 755388014403596,
+					"parameters": {
+						"variable": "countExit",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 624130222065727
 		}
 	],
 	"sid": 711607151603571
