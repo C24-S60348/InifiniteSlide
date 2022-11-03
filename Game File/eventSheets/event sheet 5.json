@@ -36,10 +36,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "ssCharacter",
-					"sid": 586368780305610,
+					"sid": 469704570908459,
 					"behaviorType": "8Direction",
 					"parameters": {
-						"speed": "500"
+						"speed": "1500"
 					}
 				}
 			],
