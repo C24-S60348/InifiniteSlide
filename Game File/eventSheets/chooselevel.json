@@ -152,11 +152,11 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 975781053595196,
+							"sid": 995260558074109,
 							"parameters": {
 								"first-value": "int(tokenat(dragger.lockNumber, 0, \",\"))",
 								"comparison": 3,
-								"second-value": "dragger.X+250"
+								"second-value": "dragger.X+325"
 							}
 						}
 					],
@@ -191,11 +191,11 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 521824828157003,
+							"sid": 125419522623547,
 							"parameters": {
 								"first-value": "int(tokenat(dragger.lockNumber, 1, \",\"))",
 								"comparison": 3,
-								"second-value": "dragger.X +250"
+								"second-value": "dragger.X +325"
 							}
 						}
 					],
@@ -230,11 +230,11 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 707891985932636,
+							"sid": 769060939986713,
 							"parameters": {
 								"first-value": "int(tokenat(dragger.lockNumber, 2, \",\"))",
 								"comparison": 3,
-								"second-value": "dragger.X +250"
+								"second-value": "dragger.X +325"
 							}
 						}
 					],
@@ -257,6 +257,123 @@
 						}
 					],
 					"sid": 642911847499169
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 251678644292520
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 111427942830967,
+							"parameters": {
+								"first-value": "int(tokenat(dragger.lockNumber, 3, \",\"))",
+								"comparison": 3,
+								"second-value": "dragger.X +325"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "tween-one-property",
+							"objectClass": "dragger",
+							"sid": 468764026533500,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "int(tokenat(dragger.lockNumber, 3, \",\"))",
+								"time": "0.5",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no"
+							}
+						}
+					],
+					"sid": 368118161518401
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 843646804255377
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 844791537290951,
+							"parameters": {
+								"first-value": "int(tokenat(dragger.lockNumber, 4, \",\"))",
+								"comparison": 3,
+								"second-value": "dragger.X +325"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "tween-one-property",
+							"objectClass": "dragger",
+							"sid": 464937916433333,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "int(tokenat(dragger.lockNumber, 4, \",\"))",
+								"time": "0.5",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no"
+							}
+						}
+					],
+					"sid": 510963746334567
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 885412946012391
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 149069976351791,
+							"parameters": {
+								"first-value": "int(tokenat(dragger.lockNumber, 5, \",\"))",
+								"comparison": 3,
+								"second-value": "dragger.X +325"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "tween-one-property",
+							"objectClass": "dragger",
+							"sid": 764837855664699,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "offsetX",
+								"end-value": "int(tokenat(dragger.lockNumber, 5, \",\"))",
+								"time": "0.5",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no"
+							}
+						}
+					],
+					"sid": 991837318684516
 				}
 			]
 		},

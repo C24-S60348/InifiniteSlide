@@ -147,7 +147,7 @@
 					},
 					"uid": 429,
 					"instanceVariables": {
-						"lockNumber": "-66,-670,-1304",
+						"lockNumber": "-20,-650,-1280,-1850,-2500",
 						"numbertest": 0
 					},
 					"behaviors": {
@@ -164,10 +164,10 @@
 						}
 					},
 					"world": {
-						"x": -431,
-						"y": 182,
-						"width": 2002.9497574489717,
-						"height": 580.0650237199886,
+						"x": -431.0197070845519,
+						"y": 172.03960990044328,
+						"width": 3248.907747802467,
+						"height": 590.0254333152076,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -663,7 +663,7 @@
 	"sid": 479485458588928,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1440,
+	"width": 2440,
 	"height": 2560,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
