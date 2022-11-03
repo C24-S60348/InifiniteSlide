@@ -135,34 +135,15 @@
 							"parameters": {
 								"key": 39
 							}
-						},
-						{
-							"id": "is-mirrored",
-							"objectClass": "PlayerSkeleton",
-							"sid": 207435024138267,
-							"isInverted": true
-						},
-						{
-							"id": "is-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 761081026286994
 						}
 					],
 					"actions": [
 						{
 							"id": "set-mirrored",
 							"objectClass": "PlayerSkeleton",
-							"sid": 685298109405677,
+							"sid": 639273145125355,
 							"parameters": {
 								"state": "mirrored"
-							}
-						},
-						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 192018808786150,
-							"parameters": {
-								"state": "not-flipped"
 							}
 						}
 					],
@@ -174,95 +155,19 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 590997132994283,
-							"parameters": {
-								"key": 38
-							}
-						},
-						{
-							"id": "is-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 111146266109982
-						}
-					],
-					"actions": [
-						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 410989149215440,
-							"parameters": {
-								"state": "not-flipped"
-							}
-						}
-					],
-					"sid": 972544236521391
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 346851252183140,
-							"parameters": {
-								"key": 40
-							}
-						},
-						{
-							"id": "is-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 174426561954405
-						}
-					],
-					"actions": [
-						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 993361952853776,
-							"parameters": {
-								"state": "not-flipped"
-							}
-						}
-					],
-					"sid": 460141595948299
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
 							"sid": 590310533604030,
 							"parameters": {
 								"key": 37
 							}
-						},
-						{
-							"id": "is-mirrored",
-							"objectClass": "PlayerSkeleton",
-							"sid": 885355356224396
-						},
-						{
-							"id": "is-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 788212375957449
 						}
 					],
 					"actions": [
 						{
 							"id": "set-mirrored",
 							"objectClass": "PlayerSkeleton",
-							"sid": 436635593543541,
+							"sid": 687318060512089,
 							"parameters": {
 								"state": "not-mirrored"
-							}
-						},
-						{
-							"id": "set-flipped",
-							"objectClass": "PlayerSkeleton",
-							"sid": 516967786360340,
-							"parameters": {
-								"state": "not-flipped"
 							}
 						}
 					],
@@ -270,9 +175,167 @@
 				},
 				{
 					"eventType": "block",
-					"conditions": [],
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 483662018101179,
+							"parameters": {
+								"object": "Joystick2"
+							}
+						},
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerSkeleton",
+							"sid": 576816176231312,
+							"behaviorType": "8Direction",
+							"isInverted": true
+						}
+					],
 					"actions": [],
-					"sid": 177192381601530
+					"sid": 245836936795643,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "up"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Joystick2",
+									"sid": 230858201584162,
+									"parameters": {
+										"instance-variable": "key",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 514473717602476,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "up"
+									}
+								}
+							],
+							"sid": 256147660101937
+						},
+						{
+							"eventType": "comment",
+							"text": "kanan"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Joystick2",
+									"sid": 705968125104830,
+									"parameters": {
+										"instance-variable": "key",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 180716869206726,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "right"
+									}
+								},
+								{
+									"id": "set-mirrored",
+									"objectClass": "PlayerSkeleton",
+									"sid": 925617020987333,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 465801973529655
+						},
+						{
+							"eventType": "comment",
+							"text": "kiri"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Joystick2",
+									"sid": 654169579485607,
+									"parameters": {
+										"instance-variable": "key",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 426237885041976,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "left"
+									}
+								},
+								{
+									"id": "set-mirrored",
+									"objectClass": "PlayerSkeleton",
+									"sid": 876118048138039,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 584159427705582
+						},
+						{
+							"eventType": "comment",
+							"text": "bwh"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Joystick2",
+									"sid": 539791494525815,
+									"parameters": {
+										"instance-variable": "key",
+										"comparison": 0,
+										"value": "4"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 229350992832337,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "down"
+									}
+								}
+							],
+							"sid": 726823306796915
+						}
+					]
 				}
 			],
 			"sid": 100709052316044

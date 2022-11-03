@@ -3,6 +3,6 @@
 	buy with coins	/
 
 -save what pets have /
--save level system 
+-save level system / (aku just letak map)
 -choose layout yg slide2 (nanti, sbb syak tgh buat)
--tambah pets kat level
+-tambah pets kat level /
