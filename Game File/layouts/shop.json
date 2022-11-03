@@ -484,7 +484,7 @@
 					},
 					"uid": 190,
 					"instanceVariables": {
-						"namaPet": "kucing",
+						"namaPet": "Kucing",
 						"isLocked": true
 					},
 					"behaviors": {
@@ -509,12 +509,12 @@
 						}
 					},
 					"world": {
-						"x": 233,
-						"y": 503,
-						"width": 152.28619154281648,
-						"height": 100.20904832092069,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 218,
+						"y": 495,
+						"width": 125.63848620691,
+						"height": 109.16130768797098,
+						"originX": 0.5491803278688525,
+						"originY": 0.44339622641509435,
 						"color": [
 							1,
 							1,
@@ -536,7 +536,7 @@
 					},
 					"uid": 191,
 					"instanceVariables": {
-						"namaPet": "anjir",
+						"namaPet": "Anjing",
 						"isLocked": true
 					},
 					"behaviors": {
@@ -588,7 +588,7 @@
 					},
 					"uid": 192,
 					"instanceVariables": {
-						"namaPet": "arnab",
+						"namaPet": "Arnab",
 						"isLocked": true
 					},
 					"behaviors": {
@@ -613,12 +613,12 @@
 						}
 					},
 					"world": {
-						"x": 221,
-						"y": 691,
-						"width": 96.27298274009469,
-						"height": 113.7771614201119,
+						"x": 205,
+						"y": 698,
+						"width": 116.58705511011881,
+						"height": 106.74037965309705,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.5111111111111111,
 						"color": [
 							1,
 							1,
@@ -640,7 +640,7 @@
 					},
 					"uid": 193,
 					"instanceVariables": {
-						"namaPet": "ayam",
+						"namaPet": "Ayam",
 						"isLocked": true
 					},
 					"behaviors": {
@@ -665,8 +665,8 @@
 						}
 					},
 					"world": {
-						"x": 476,
-						"y": 694,
+						"x": 468.02289585611993,
+						"y": 692.2273101902489,
 						"width": 106.61687502825576,
 						"height": 106.61687502825576,
 						"originX": 0.5,
@@ -888,7 +888,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "PET CHANGED",
+						"text": "PET REMOVED",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -1672,7 +1672,7 @@
 					"uid": 434,
 					"instanceVariables": {
 						"notDrag": true,
-						"referTo": "arnab"
+						"referTo": "Arnab"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1701,7 +1701,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "20",
+						"text": "80",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -1720,7 +1720,7 @@
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": true,
-						"referTo": "arnab"
+						"referTo": "Arnab"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1758,7 +1758,7 @@
 					"uid": 445,
 					"instanceVariables": {
 						"notDrag": true,
-						"referTo": "kucing"
+						"referTo": "Kucing"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1806,7 +1806,7 @@
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": true,
-						"referTo": "kucing"
+						"referTo": "Kucing"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1844,7 +1844,7 @@
 					"uid": 447,
 					"instanceVariables": {
 						"notDrag": true,
-						"referTo": "anjir"
+						"referTo": "Anjing"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1892,7 +1892,7 @@
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": true,
-						"referTo": "anjir"
+						"referTo": "Anjing"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1930,7 +1930,7 @@
 					"uid": 449,
 					"instanceVariables": {
 						"notDrag": true,
-						"referTo": "ayam"
+						"referTo": "Ayam"
 					},
 					"behaviors": {
 						"Pin": {
@@ -1959,7 +1959,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "500",
+						"text": "100",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -1978,7 +1978,7 @@
 					"instanceVariables": {
 						"isMoney": false,
 						"notDrag": true,
-						"referTo": "ayam"
+						"referTo": "Ayam"
 					},
 					"behaviors": {
 						"Pin": {
@@ -2001,6 +2001,41 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "tambahItem2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 587,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 643,
+						"y": 617,
+						"width": 96.55795684591072,
+						"height": 84.97100202440143,
+						"originX": 0.54,
+						"originY": 0.6136363636363636,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 5.497787143782138,
 						"zElevation": 0
 					}
 				}

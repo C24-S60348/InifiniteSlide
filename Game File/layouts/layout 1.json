@@ -3342,12 +3342,55 @@
 						}
 					},
 					"world": {
-						"x": 227.96235602963802,
-						"y": 235.81046975852001,
-						"width": 78.43594481349251,
-						"height": 89.11480258181123,
+						"x": 231.81095246355358,
+						"y": 228.0590899673717,
+						"width": 89.63186171215594,
+						"height": 101.83501557241357,
 						"originX": 0.34375,
 						"originY": 0.390625,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pet_ikut",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Arnab",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 431,
+					"instanceVariables": {
+						"distance": 0
+					},
+					"behaviors": {
+						"MoveTo": {
+							"properties": {
+								"max-speed": 3000,
+								"acceleration": 9000,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 186.26154084714125,
+						"y": 265.522679769813,
+						"width": 55.83839996184528,
+						"height": 52.34849996422995,
+						"originX": 0.4791666666666667,
+						"originY": 0.5555555555555556,
 						"color": [
 							1,
 							1,
@@ -3457,8 +3500,8 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "Afiq Encem",
-						"enable-bbcode": true,
+						"text": "Level 1",
+						"enable-bbcode": false,
 						"character-width": 16,
 						"character-height": 16,
 						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",

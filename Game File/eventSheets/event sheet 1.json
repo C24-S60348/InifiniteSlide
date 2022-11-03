@@ -554,7 +554,54 @@
 					}
 				}
 			],
-			"sid": 854236311650622
+			"sid": 854236311650622,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 578261010785375,
+							"parameters": {
+								"variable": "petName",
+								"comparison": 0,
+								"value": "\"\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Pet_ikut",
+							"sid": 220377094557551
+						}
+					],
+					"sid": 968727337724404
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 597777341724709
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Pet_ikut",
+							"sid": 395818291397125,
+							"parameters": {
+								"animation": "petName",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 889484742629773
+				}
+			]
 		},
 		{
 			"eventType": "comment",
@@ -665,6 +712,148 @@
 				}
 			],
 			"sid": 965576212804595
+		},
+		{
+			"eventType": "comment",
+			"text": "player dan pet berjauhan --> pet ikut"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 963723701272806,
+					"parameters": {
+						"first-value": "abs(distance(Sprite.X, Sprite.Y, Pet_ikut.X, Pet_ikut.Y))",
+						"comparison": 4,
+						"second-value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "Pet_ikut",
+					"sid": 117616439502843,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "Sprite.X+ (40*sign(Self.X-Sprite.X))",
+						"y": "Sprite.Y+30",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 262230629468245
+		},
+		{
+			"eventType": "comment",
+			"text": "kekanan"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Pet_ikut",
+					"sid": 470282476272679,
+					"parameters": {
+						"comparison": 2,
+						"x-co-ordinate": "Sprite.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Pet_ikut",
+					"sid": 580391701152310,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 500043508177235
+		},
+		{
+			"eventType": "comment",
+			"text": "kekiri"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 875616759453242
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Pet_ikut",
+					"sid": 358342373532394,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 568875622577821
+		},
+		{
+			"eventType": "comment",
+			"text": "animation gerak"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Pet_ikut",
+					"sid": 113365252112423,
+					"behaviorType": "MoveTo"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-speed",
+					"objectClass": "Pet_ikut",
+					"sid": 847510442653851,
+					"parameters": {
+						"speed": "10"
+					}
+				}
+			],
+			"sid": 406302830143983
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 784180358230570
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-speed",
+					"objectClass": "Pet_ikut",
+					"sid": 658255332549688,
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Pet_ikut",
+					"sid": 304703108808523,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 385293793324991
 		}
 	],
 	"sid": 991181321091608

@@ -560,6 +560,102 @@
 					"sid": 704571328716637
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 786647223807843,
+					"parameters": {
+						"object": "btnUse"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "remove-item",
+					"objectClass": "LocalStorage",
+					"sid": 191009898429710,
+					"parameters": {
+						"key": "SAVE_UNLOCKED_THING"
+					}
+				}
+			],
+			"sid": 473653073112013
+		},
+		{
+			"eventType": "comment",
+			"text": "taknak pet"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 505452417720052,
+					"parameters": {
+						"object": "tambahItem2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 278642112884651,
+					"parameters": {
+						"variable": "petName",
+						"value": "\"\""
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "messagebox",
+					"sid": 223572686485521,
+					"parameters": {
+						"frame-number": "3"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "messagebox",
+					"sid": 406661036289564,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "messagebox",
+					"sid": 838905680803188,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 798831166730576,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "messagebox",
+					"sid": 387651686730196,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 620534124321747
 		}
 	],
 	"sid": 527511487892781

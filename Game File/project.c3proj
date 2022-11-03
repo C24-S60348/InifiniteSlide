@@ -157,6 +157,14 @@
 			"author": "Scirra",
 			"version": "r317",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r317",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xcjmpr8czsl",
@@ -272,7 +280,9 @@
 			"Tilemap2",
 			"Camera",
 			"SpriteFont2",
-			"LocalStorage"
+			"LocalStorage",
+			"Pet_ikut",
+			"tambahItem2"
 		],
 		"subfolders": []
 	},
