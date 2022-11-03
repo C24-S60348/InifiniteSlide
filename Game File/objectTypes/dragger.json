@@ -8,12 +8,14 @@
 			"name": "lockNumber",
 			"type": "string",
 			"desc": "",
+			"show": true,
 			"sid": 995387239536953
 		},
 		{
 			"name": "numbertest",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 654833997743020
 		}
 	],

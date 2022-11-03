@@ -8,12 +8,14 @@
 			"name": "namaPet",
 			"type": "string",
 			"desc": "",
+			"show": true,
 			"sid": 231515255392986
 		},
 		{
 			"name": "isLocked",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 534691305792099
 		}
 	],

@@ -8,12 +8,14 @@
 			"name": "isMoney",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 680315871495656
 		},
 		{
 			"name": "notDrag",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 451760628811978
 		}
 	],

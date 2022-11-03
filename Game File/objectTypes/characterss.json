@@ -8,6 +8,7 @@
 			"name": "namaOrang",
 			"type": "string",
 			"desc": "",
+			"show": true,
 			"sid": 436916064107522
 		}
 	],

@@ -8,6 +8,7 @@
 			"name": "namaLevel",
 			"type": "string",
 			"desc": "",
+			"show": true,
 			"sid": 870773667503982
 		}
 	],

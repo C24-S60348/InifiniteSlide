@@ -65,6 +65,7 @@
 						"audio-file": "backgroundmusic",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"bg\""
 					}
 				},
