@@ -3500,7 +3500,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "Level 1",
+						"text": "Tutorial",
 						"enable-bbcode": false,
 						"character-width": 16,
 						"character-height": 16,
