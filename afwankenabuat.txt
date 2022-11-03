@@ -4,5 +4,8 @@
 
 -save what pets have /
 -save level system / (aku just letak map)
--choose layout yg slide2 (nanti, sbb syak tgh buat)
+-choose layout yg slide2 (nanti, sbb syak tgh buat) /
 -tambah pets kat level /
+
+-tambah text untuk tunjuk
+-music background
