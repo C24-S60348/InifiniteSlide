@@ -139,9 +139,9 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 130236725576346,
+							"sid": 170443259922544,
 							"parameters": {
-								"layout": "Tools"
+								"layout": "Choose Levels Layout"
 							}
 						}
 					],
@@ -245,60 +245,6 @@
 				}
 			],
 			"sid": 614380609208080
-		},
-		{
-			"eventType": "comment",
-			"text": "MAPPPP"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-y",
-					"objectClass": "dragger",
-					"sid": 740017579196833,
-					"parameters": {
-						"comparison": 2,
-						"y-co-ordinate": "-562"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-y",
-					"objectClass": "dragger",
-					"sid": 810712736622910,
-					"parameters": {
-						"y": "-562"
-					}
-				}
-			],
-			"sid": 313432111927656
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-y",
-					"objectClass": "dragger",
-					"sid": 727794828401107,
-					"parameters": {
-						"comparison": 4,
-						"y-co-ordinate": "0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-y",
-					"objectClass": "dragger",
-					"sid": 978497234971501,
-					"parameters": {
-						"y": "0"
-					}
-				}
-			],
-			"sid": 427993208783717
 		},
 		{
 			"eventType": "block",

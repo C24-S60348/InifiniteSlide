@@ -1535,7 +1535,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "TOOLS",
+						"text": "LEVEL",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -1564,8 +1564,8 @@
 						}
 					},
 					"world": {
-						"x": 369,
-						"y": 1232,
+						"x": 373,
+						"y": 1229,
 						"width": 143,
 						"height": 63,
 						"originX": 0,

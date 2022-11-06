@@ -7,35 +7,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "bgGame",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 107,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 733.0638991850993,
-						"height": 1300.445978938172,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							0.9
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "dragger",
 					"properties": {
 						"initially-visible": true,
@@ -74,6 +45,35 @@
 							1,
 							1,
 							0.8
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "bgGame",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 107,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 733.0638991850993,
+						"height": 1300.445978938172,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.9
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -920,7 +920,7 @@
 				{
 					"type": "SpriteFont",
 					"properties": {
-						"text": "TOOLS",
+						"text": "LEVEL",
 						"enable-bbcode": true,
 						"character-width": 16,
 						"character-height": 16,
@@ -949,8 +949,8 @@
 						}
 					},
 					"world": {
-						"x": 369,
-						"y": 1230,
+						"x": 373,
+						"y": 1229,
 						"width": 143,
 						"height": 63,
 						"originX": 0,
@@ -1161,5 +1161,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ButtonClick"
+	"eventSheet": "Map"
 }
