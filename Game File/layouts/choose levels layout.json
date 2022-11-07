@@ -276,8 +276,8 @@
 						}
 					},
 					"world": {
-						"x": 367,
-						"y": 843,
+						"x": 366,
+						"y": 1084,
 						"width": 291,
 						"height": 92.00000000000001,
 						"originX": 0.5,
@@ -305,8 +305,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 363,
-						"y": 846,
+						"x": 362,
+						"y": 1087,
 						"width": 224.8925720719265,
 						"height": 42.40493850077473,
 						"originX": 0.5,
@@ -1002,6 +1002,83 @@
 							0,
 							0,
 							0,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "bgBlue",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 619,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 358,
+						"y": 882,
+						"width": 754,
+						"height": 204,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SpriteFont3",
+					"properties": {
+						"text": "SHOP",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 1.4,
+						"character-spacing": -0.4,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 620,
+					"instanceVariables": {
+						"isMoney": false,
+						"notDrag": true,
+						"referTo": ""
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 27,
+						"y": 801,
+						"width": 667,
+						"height": 143,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 0,

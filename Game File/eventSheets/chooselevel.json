@@ -96,6 +96,14 @@
 						"loop": "no",
 						"ping-pong": "no"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SpriteFont3",
+					"sid": 934962140269411,
+					"parameters": {
+						"text": "\"This planet has wholly fallen into chaos and orderless. You’ve been given a second chance to restructure and restore your peaceful planet by returning to the past. Suddenly, the portal tunnel becomes unstable and brings you dimension where the world is frictionless. When you look around, you realize you are stuck in a maze.\""
+					}
 				}
 			],
 			"sid": 379184165658466
@@ -196,6 +204,14 @@
 								"loop": "no",
 								"ping-pong": "no"
 							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont3",
+							"sid": 659275818617237,
+							"parameters": {
+								"text": "\"This planet has wholly fallen into chaos and orderless. You’ve been given a second chance to restructure and restore your peaceful planet by returning to the past. Suddenly, the portal tunnel becomes unstable and brings you dimension where the world is frictionless. When you look around, you realize you are stuck in a maze.\""
+							}
 						}
 					],
 					"sid": 254992251256226
@@ -234,6 +250,14 @@
 								"destroy-on-complete": "no",
 								"loop": "no",
 								"ping-pong": "no"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont3",
+							"sid": 857466055803023,
+							"parameters": {
+								"text": "\"The maze has completely lost the sense of time… All four seasons appear at the same time unpredictably.\""
 							}
 						}
 					],
@@ -274,6 +298,14 @@
 								"loop": "no",
 								"ping-pong": "no"
 							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont3",
+							"sid": 588843607308902,
+							"parameters": {
+								"text": "\"You spot a mysterious giant blocking the way at the exit…you have no choice but to enter.\""
+							}
 						}
 					],
 					"sid": 642911847499169
@@ -312,6 +344,14 @@
 								"destroy-on-complete": "no",
 								"loop": "no",
 								"ping-pong": "no"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont3",
+							"sid": 870321512292505,
+							"parameters": {
+								"text": "\"A cat-like creature wandering around seems like looking for something vital for them…\""
 							}
 						}
 					],
@@ -352,6 +392,14 @@
 								"loop": "no",
 								"ping-pong": "no"
 							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont3",
+							"sid": 638246531384384,
+							"parameters": {
+								"text": "\"The moon is hanging in the sky…but wait! Is someone living on the moon？ I saw something moving…\""
+							}
 						}
 					],
 					"sid": 510963746334567
@@ -390,6 +438,14 @@
 								"destroy-on-complete": "no",
 								"loop": "no",
 								"ping-pong": "no"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "SpriteFont3",
+							"sid": 641186169946312,
+							"parameters": {
+								"text": "\"The maze has completely lost the sense of time… All four seasons appear at the same time unpredictably.\""
 							}
 						}
 					],
