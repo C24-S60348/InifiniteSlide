@@ -56,7 +56,20 @@
 					"isInverted": true
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 147316577529880,
+					"parameters": {
+						"audio-file": "click3",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
 			"sid": 965746826551095,
 			"children": [
 				{
@@ -421,30 +434,6 @@
 					"sid": 890268127249839
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tap-object",
-					"objectClass": "Touch",
-					"sid": 761084346759688,
-					"parameters": {
-						"object": "Sprite9"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout-by-name",
-					"objectClass": "System",
-					"sid": 307393527680058,
-					"parameters": {
-						"layout": "Sprite9.namaLevel"
-					}
-				}
-			],
-			"sid": 986383417210221
 		}
 	],
 	"sid": 164528087870957

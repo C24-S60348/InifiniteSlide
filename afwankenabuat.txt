@@ -7,5 +7,5 @@
 -choose layout yg slide2 (nanti, sbb syak tgh buat) /
 -tambah pets kat level /
 
--tambah text untuk tunjuk
--music background
+-tambah text untuk tunjuk /
+-music background 

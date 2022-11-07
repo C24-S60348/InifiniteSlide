@@ -58,6 +58,42 @@
 				}
 			],
 			"sid": 427993208783717
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 761084346759688,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 100743286143870,
+					"parameters": {
+						"audio-file": "startgame",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 307393527680058,
+					"parameters": {
+						"layout": "Sprite9.namaLevel"
+					}
+				}
+			],
+			"sid": 986383417210221
 		}
 	],
 	"sid": 883124202866085
