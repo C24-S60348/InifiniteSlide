@@ -9,3 +9,4 @@
 
 -tambah text untuk tunjuk /
 -music background 
+-sound effect
