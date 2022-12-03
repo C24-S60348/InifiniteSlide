@@ -712,6 +712,31 @@
 				}
 			],
 			"sid": 624130222065727
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 664465028858948
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 443851878146319,
+					"parameters": {
+						"audio-file": "startgame",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"start\""
+					}
+				}
+			],
+			"sid": 727206096312854
 		}
 	],
 	"sid": 711607151603571
