@@ -317,7 +317,8 @@
 			"Layout 3",
 			"Layout 4",
 			"Choose Levels Layout",
-			"Intro"
+			"Intro",
+			"about us"
 		],
 		"subfolders": []
 	},
@@ -333,7 +334,8 @@
 			"Event sheet 5",
 			"chooselevel",
 			"Shop",
-			"Intro"
+			"Intro",
+			"Event sheet 6"
 		],
 		"subfolders": []
 	},

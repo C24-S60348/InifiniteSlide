@@ -428,6 +428,18 @@
 							"sid": 712511831874420
 						},
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 658791554524453,
+							"parameters": {
+								"audio-file": "success",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
 							"sid": 915749287402527,
