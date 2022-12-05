@@ -87,6 +87,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "video",
+			"name": "Video",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -286,7 +294,8 @@
 			"dryleaf",
 			"JS5",
 			"bgBlue",
-			"SpriteFont3"
+			"SpriteFont3",
+			"Video"
 		],
 		"subfolders": []
 	},
@@ -307,7 +316,8 @@
 			"Layout 5",
 			"Layout 3",
 			"Layout 4",
-			"Choose Levels Layout"
+			"Choose Levels Layout",
+			"Intro"
 		],
 		"subfolders": []
 	},
@@ -322,7 +332,8 @@
 			"Event sheet 4",
 			"Event sheet 5",
 			"chooselevel",
-			"Shop"
+			"Shop",
+			"Intro"
 		],
 		"subfolders": []
 	},
@@ -406,7 +417,16 @@
 			"subfolders": []
 		},
 		"video": {
-			"items": [],
+			"items": [
+				{
+					"name": "IntroVideo.mp4",
+					"type": "video/mp4",
+					"sid": 720762384117253,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"font": {
@@ -534,7 +554,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "splash",
+		"loaderStyle": "progress-logo",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",

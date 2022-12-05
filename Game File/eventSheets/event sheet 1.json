@@ -868,11 +868,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 613666581185569,
+					"sid": 550708989569827,
 					"parameters": {
 						"audio-file": "startgame",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"stereo-pan": "0",
 						"tag-optional": "\"start\""
 					}

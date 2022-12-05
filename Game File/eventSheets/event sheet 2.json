@@ -726,11 +726,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 443851878146319,
+					"sid": 817422244666318,
 					"parameters": {
 						"audio-file": "startgame",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"stereo-pan": "0",
 						"tag-optional": "\"start\""
 					}
