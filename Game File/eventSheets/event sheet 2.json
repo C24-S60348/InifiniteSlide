@@ -473,6 +473,11 @@
 							"sid": 712511831874420
 						},
 						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 894542028889045
+						},
+						{
 							"id": "play",
 							"objectClass": "Audio",
 							"sid": 658791554524453,
