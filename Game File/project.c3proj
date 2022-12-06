@@ -318,7 +318,8 @@
 			"Layout 4",
 			"Choose Levels Layout",
 			"Intro",
-			"about us"
+			"about us",
+			"Loading"
 		],
 		"subfolders": []
 	},
@@ -335,7 +336,8 @@
 			"chooselevel",
 			"Shop",
 			"Intro",
-			"Event sheet 6"
+			"Event sheet 6",
+			"Loading"
 		],
 		"subfolders": []
 	},
@@ -530,7 +532,7 @@
 		"pixelRounding": false,
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
-		"useLoaderLayout": false,
+		"useLoaderLayout": true,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
@@ -573,5 +575,5 @@
 	},
 	"viewportWidth": 720,
 	"viewportHeight": 1280,
-	"firstLayout": null
+	"firstLayout": "Loading"
 }
