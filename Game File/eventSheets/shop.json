@@ -681,6 +681,237 @@
 				}
 			],
 			"sid": 620534124321747
+		},
+		{
+			"eventType": "comment",
+			"text": "banyakkan duit, hilangkan storage"
+		},
+		{
+			"eventType": "variable",
+			"name": "cheat",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 216403630214644
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 625248241159950,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 138019529373309,
+					"parameters": {
+						"variable": "cheat",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 937555859149806,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "activate cheat"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 981594648861866,
+							"parameters": {
+								"variable": "cheat",
+								"comparison": 5,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 933231576120137,
+							"parameters": {
+								"variable": "money",
+								"value": "500"
+							}
+						},
+						{
+							"id": "set-item",
+							"objectClass": "LocalStorage",
+							"sid": 620570391589545,
+							"parameters": {
+								"key": "SAVE_COINS",
+								"value": "money"
+							}
+						},
+						{
+							"callFunction": "refreshMoney",
+							"sid": 632787440931388
+						}
+					],
+					"sid": 174172482021700
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 805736646901751,
+							"parameters": {
+								"seconds": "5"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 858916652883144,
+							"parameters": {
+								"variable": "cheat",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 238491231165446
+				}
+			]
+		},
+		{
+			"eventType": "variable",
+			"name": "cheat2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 738013334023399
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 794904940833735,
+					"parameters": {
+						"object": "SpriteFont"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "SpriteFont",
+					"sid": 398875579584226,
+					"parameters": {
+						"instance-variable": "isMoney"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 950203434061504,
+					"parameters": {
+						"variable": "cheat2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 470579760471602,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "activate cheat"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 694597206321292,
+							"parameters": {
+								"variable": "cheat2",
+								"comparison": 5,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "clear-storage",
+							"objectClass": "LocalStorage",
+							"sid": 286778935212916
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 387060541749678,
+							"parameters": {
+								"variable": "money",
+								"value": "50"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 608614639306089,
+							"parameters": {
+								"variable": "unlockedThing",
+								"value": "\"\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 864521939479941,
+							"parameters": {
+								"layout": "home"
+							}
+						}
+					],
+					"sid": 843908194835679
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 817787542206466,
+							"parameters": {
+								"seconds": "5"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 953388370271024,
+							"parameters": {
+								"variable": "cheat2",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 440465378279889
+				}
+			]
 		}
 	],
 	"sid": 527511487892781
