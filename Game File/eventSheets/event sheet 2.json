@@ -177,6 +177,38 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-any-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 593778516080702
+						},
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerSkeleton",
+							"sid": 471881667019091,
+							"behaviorType": "8Direction",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 393806286158608,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"start\""
+							}
+						}
+					],
+					"sid": 111813980870021
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-touched-object",
 							"objectClass": "Touch",
 							"sid": 483662018101179,
@@ -192,7 +224,20 @@
 							"isInverted": true
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 585688129540294,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"start\""
+							}
+						}
+					],
 					"sid": 245836936795643,
 					"children": [
 						{
@@ -705,6 +750,11 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 793094884291795
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",

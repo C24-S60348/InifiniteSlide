@@ -25,35 +25,40 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 242133904863221,
+					"sid": 851507362246026,
 					"parameters": {
-						"object": "StartButton"
+						"object": "play"
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 815450241879582
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 713033122020549,
+					"sid": 682541009253372,
 					"parameters": {
-						"audio-file": "startgame",
-						"loop": "not-looping",
+						"audio-file": "during_gamebgmusic",
+						"loop": "looping",
 						"volume": "0",
 						"stereo-pan": "0",
-						"tag-optional": "\"\""
+						"tag-optional": "\"start\""
 					}
 				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 530968820656365,
+					"sid": 660627290562882,
 					"parameters": {
 						"layout": "Layout 1"
 					}
 				}
 			],
-			"sid": 545301776426366
+			"sid": 816877292030143
 		},
 		{
 			"eventType": "comment",
@@ -72,11 +77,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 330099096392706,
+					"sid": 887247192039151,
 					"parameters": {
 						"audio-file": "backgroundmusic",
 						"loop": "looping",
-						"volume": "0",
+						"volume": "10",
 						"stereo-pan": "0",
 						"tag-optional": "\"bg\""
 					}

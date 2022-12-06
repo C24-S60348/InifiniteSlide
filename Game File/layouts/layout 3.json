@@ -3989,7 +3989,9 @@
 						"live-preview": false
 					},
 					"uid": 307,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"moving": false
+					},
 					"behaviors": {
 						"ScrollTo": {
 							"properties": {

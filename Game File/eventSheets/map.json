@@ -15,10 +15,10 @@
 				{
 					"id": "compare-y",
 					"objectClass": "dragger",
-					"sid": 740017579196833,
+					"sid": 938159325597203,
 					"parameters": {
 						"comparison": 2,
-						"y-co-ordinate": "-562"
+						"y-co-ordinate": "-200"
 					}
 				}
 			],
@@ -26,9 +26,9 @@
 				{
 					"id": "set-y",
 					"objectClass": "dragger",
-					"sid": 810712736622910,
+					"sid": 681309261721564,
 					"parameters": {
-						"y": "-562"
+						"y": "-200"
 					}
 				}
 			],
@@ -73,15 +73,33 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 972191505760279
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 100743286143870,
+					"sid": 344309025216079,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "startgame",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-5",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 398313535531637,
+					"parameters": {
+						"audio-file": "during_gamebgmusic",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"start\""
 					}
 				},
 				{

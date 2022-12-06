@@ -146,7 +146,47 @@
 					}
 				}
 			],
-			"sid": 349168940356699
+			"sid": 349168940356699,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Sprite",
+							"sid": 616355287849163,
+							"parameters": {
+								"instance-variable": "moving"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 717281395833986,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite",
+							"sid": 226108006907173,
+							"parameters": {
+								"instance-variable": "moving",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 441306055651297
+				}
+			]
 		},
 		{
 			"eventType": "block",
@@ -164,6 +204,15 @@
 					"sid": 881396147428989,
 					"parameters": {
 						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Sprite",
+					"sid": 158305267868544,
+					"parameters": {
+						"instance-variable": "moving",
+						"value": "false"
 					}
 				},
 				{
@@ -257,6 +306,11 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 940789637886314
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",

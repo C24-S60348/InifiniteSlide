@@ -393,6 +393,14 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "slide.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 887955129187899,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []

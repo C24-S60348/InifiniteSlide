@@ -119,6 +119,11 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 968540116438182
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 229420531637295,
@@ -157,7 +162,20 @@
 					"isInverted": true
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 451569704633570,
+					"parameters": {
+						"audio-file": "slide",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
 			"sid": 216167817872655,
 			"children": [
 				{
@@ -301,6 +319,38 @@
 					"sid": 754811182910550
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 390132628311701
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "ssCharacter",
+					"sid": 126443525638690,
+					"behaviorType": "8Direction",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 635972195844072,
+					"parameters": {
+						"audio-file": "slide",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 411653972988279
 		},
 		{
 			"eventType": "comment",
@@ -480,7 +530,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 130990437035504,
+					"sid": 672829669040448,
 					"parameters": {
 						"audio-file": "startgame",
 						"loop": "not-looping",
