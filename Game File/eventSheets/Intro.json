@@ -96,6 +96,27 @@
 				}
 			],
 			"sid": 512198710999202
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-ended",
+					"objectClass": "Video",
+					"sid": 182182423511344
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 405360931379233,
+					"parameters": {
+						"layout": "home"
+					}
+				}
+			],
+			"sid": 309555106266627
 		}
 	],
 	"sid": 743591115333584

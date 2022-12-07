@@ -259,7 +259,7 @@
 						"x": 240,
 						"y": 589,
 						"width": 254,
-						"height": 113,
+						"height": 65,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -359,5 +359,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Loading"
 }
