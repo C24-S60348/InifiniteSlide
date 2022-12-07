@@ -194,30 +194,6 @@
 			]
 		},
 		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 827467978805999,
-					"parameters": {
-						"object": "play"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 561079351238609,
-					"parameters": {
-						"layout": "Layout 1"
-					}
-				}
-			],
-			"sid": 199214284037715
-		},
-		{
 			"eventType": "comment",
 			"text": "set money & character animatino"
 		},

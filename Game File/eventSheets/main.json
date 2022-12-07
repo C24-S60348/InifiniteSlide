@@ -16,10 +16,6 @@
 			"includeSheet": "ButtonClick"
 		},
 		{
-			"eventType": "comment",
-			"text": "go to level"
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -31,34 +27,102 @@
 					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 816877292030143,
+			"children": [
 				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 815450241879582
+					"eventType": "comment",
+					"text": "go to level"
 				},
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 682541009253372,
-					"parameters": {
-						"audio-file": "during_gamebgmusic",
-						"loop": "looping",
-						"volume": "0",
-						"stereo-pan": "0",
-						"tag-optional": "\"start\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "play",
+							"sid": 971697050236857,
+							"parameters": {
+								"comparison": 0,
+								"number": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 167913196822744
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 346319223829501,
+							"parameters": {
+								"audio-file": "during_gamebgmusic",
+								"loop": "looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"start\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 501504235831550,
+							"parameters": {
+								"layout": "Layout 1"
+							}
+						}
+					],
+					"sid": 429037275318300
 				},
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 660627290562882,
-					"parameters": {
-						"layout": "Layout 1"
-					}
+					"eventType": "comment",
+					"text": "about us"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 935067956851718
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "play",
+							"sid": 493357683000667,
+							"parameters": {
+								"comparison": 0,
+								"number": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 290267916006211,
+							"parameters": {
+								"audio-file": "click3",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 249800473289909,
+							"parameters": {
+								"layout": "about us"
+							}
+						}
+					],
+					"sid": 938825174140777
 				}
-			],
-			"sid": 816877292030143
+			]
 		},
 		{
 			"eventType": "comment",

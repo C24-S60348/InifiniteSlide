@@ -497,34 +497,6 @@
 				}
 			],
 			"sid": 842892045776455
-		},
-		{
-			"eventType": "comment",
-			"text": "back button"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tap-object",
-					"objectClass": "Touch",
-					"sid": 228596736552376,
-					"parameters": {
-						"object": "Sprite19"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 165612033152361,
-					"parameters": {
-						"layout": "home"
-					}
-				}
-			],
-			"sid": 135375711032358
 		}
 	],
 	"sid": 744758322301078
