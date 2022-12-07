@@ -294,7 +294,11 @@
 			"JS5",
 			"bgBlue",
 			"SpriteFont3",
-			"Video"
+			"Video",
+			"JS6",
+			"JS7",
+			"JS8",
+			"JS9"
 		],
 		"subfolders": []
 	},
