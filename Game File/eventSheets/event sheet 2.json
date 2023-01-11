@@ -2,6 +2,10 @@
 	"name": "Event sheet 2",
 	"events": [
 		{
+			"eventType": "include",
+			"includeSheet": "Event sheet 1"
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player Movement",
@@ -381,6 +385,206 @@
 							"sid": 726823306796915
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerSkeleton",
+							"sid": 661581761596976,
+							"behaviorType": "8Direction",
+							"isInverted": true
+						}
+					],
+					"actions": [],
+					"sid": 435292567237763,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "up"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-button-pressed",
+									"objectClass": "Gamepad",
+									"sid": 843479219135801,
+									"parameters": {
+										"gamepad": "0",
+										"button": "d-pad-up"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 316627423364726,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "up"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 497185017549475,
+									"parameters": {
+										"audio-file": "slide",
+										"loop": "not-looping",
+										"volume": "0",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 146896157508489
+						},
+						{
+							"eventType": "comment",
+							"text": "kanan"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-button-pressed",
+									"objectClass": "Gamepad",
+									"sid": 183179384973885,
+									"parameters": {
+										"gamepad": "0",
+										"button": "d-pad-right"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 957659918615250,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "right"
+									}
+								},
+								{
+									"id": "set-mirrored",
+									"objectClass": "PlayerSkeleton",
+									"sid": 500263558195732,
+									"parameters": {
+										"state": "mirrored"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 461797152097830,
+									"parameters": {
+										"audio-file": "slide",
+										"loop": "not-looping",
+										"volume": "0",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 995052169943187
+						},
+						{
+							"eventType": "comment",
+							"text": "kiri"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-button-pressed",
+									"objectClass": "Gamepad",
+									"sid": 995704480895943,
+									"parameters": {
+										"gamepad": "0",
+										"button": "d-pad-left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 299141779655565,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "left"
+									}
+								},
+								{
+									"id": "set-mirrored",
+									"objectClass": "PlayerSkeleton",
+									"sid": 200582553077784,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 254114370418632,
+									"parameters": {
+										"audio-file": "slide",
+										"loop": "not-looping",
+										"volume": "0",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 667163779171104
+						},
+						{
+							"eventType": "comment",
+							"text": "bwh"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-button-pressed",
+									"objectClass": "Gamepad",
+									"sid": 518746598960591,
+									"parameters": {
+										"gamepad": "0",
+										"button": "d-pad-down"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "PlayerSkeleton",
+									"sid": 511441519373277,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "down"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 836580137084932,
+									"parameters": {
+										"audio-file": "slide",
+										"loop": "not-looping",
+										"volume": "0",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 327511007754450
+						}
+					]
 				}
 			],
 			"sid": 100709052316044
@@ -506,7 +710,8 @@
 							}
 						}
 					],
-					"sid": 962634876569238
+					"sid": 962634876569238,
+					"disabled": true
 				}
 			],
 			"sid": 669987292673153

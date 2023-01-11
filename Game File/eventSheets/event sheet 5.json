@@ -324,6 +324,206 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-moving",
+					"objectClass": "ssCharacter",
+					"sid": 528072227609644,
+					"behaviorType": "8Direction",
+					"isInverted": true
+				}
+			],
+			"actions": [],
+			"sid": 658752113384442,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "up"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 444595309886350,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-up"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 406882571137502,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 412367441447139,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 239168207923909
+				},
+				{
+					"eventType": "comment",
+					"text": "kanan"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 157632119218392,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-right"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 455629770343184,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "ssCharacter",
+							"sid": 541607016467238,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 524681772786002,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 965792446255467
+				},
+				{
+					"eventType": "comment",
+					"text": "kiri"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 541912078175817,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-left"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 636535634996092,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "ssCharacter",
+							"sid": 107278930325713,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 376903705475804,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 613930645916859
+				},
+				{
+					"eventType": "comment",
+					"text": "bwh"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 759078709776897,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-down"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "ssCharacter",
+							"sid": 245362186865552,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 256103585330029,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 880849550013540
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 390132628311701

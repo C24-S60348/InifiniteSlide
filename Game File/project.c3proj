@@ -95,6 +95,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
@@ -298,7 +306,8 @@
 			"JS6",
 			"JS7",
 			"JS8",
-			"JS9"
+			"JS9",
+			"Gamepad"
 		],
 		"subfolders": []
 	},

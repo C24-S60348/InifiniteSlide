@@ -496,6 +496,206 @@
 			]
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite",
+					"sid": 661687323146799,
+					"behaviorType": "8Direction",
+					"isInverted": true
+				}
+			],
+			"actions": [],
+			"sid": 567166711021257,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "up"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 637475515131103,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-up"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 112286131459904,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 955396097685021,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 299166926126961
+				},
+				{
+					"eventType": "comment",
+					"text": "kanan"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 487878384711496,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-right"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 347629092708845,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite",
+							"sid": 916033749080471,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 640988764071545,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 312650749961756
+				},
+				{
+					"eventType": "comment",
+					"text": "kiri"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 873722027254275,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-left"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 330980685496836,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite",
+							"sid": 435049013430456,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 985024453914890,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 572924296187023
+				},
+				{
+					"eventType": "comment",
+					"text": "bwh"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 667710040042796,
+							"parameters": {
+								"gamepad": "0",
+								"button": "d-pad-down"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 675831080901969,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 525314071182505,
+							"parameters": {
+								"audio-file": "slide",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 290974429368139
+				}
+			]
+		},
+		{
 			"eventType": "comment",
 			"text": "feedback"
 		},
@@ -560,17 +760,87 @@
 					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 847882280255458,
+			"children": [
 				{
-					"id": "go-to-layout-by-name",
-					"objectClass": "System",
-					"sid": 904368918147476,
-					"parameters": {
-						"layout": "Sprite3.namaLevel"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite3",
+							"sid": 206103045899812,
+							"parameters": {
+								"instance-variable": "namaLevel",
+								"comparison": 0,
+								"value": "\"home\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 802854256215696
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 328138357266457
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 854224499851899,
+							"parameters": {
+								"audio-file": "success",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 575851320458327,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 425132618363627,
+							"parameters": {
+								"layout": "home"
+							}
+						}
+					],
+					"sid": 202908615434319
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 672926656137376
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 156871988566569,
+							"parameters": {
+								"layout": "Sprite3.namaLevel"
+							}
+						}
+					],
+					"sid": 847060181372996
 				}
-			],
-			"sid": 847882280255458
+			]
 		},
 		{
 			"eventType": "block",
