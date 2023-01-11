@@ -524,6 +524,15 @@
 								"gamepad": "0",
 								"button": "d-pad-up"
 							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 439676955252111,
+							"parameters": {
+								"gamepad": "1",
+								"button": "d-pad-up"
+							}
 						}
 					],
 					"actions": [
@@ -549,7 +558,8 @@
 							}
 						}
 					],
-					"sid": 299166926126961
+					"sid": 299166926126961,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "comment",
@@ -564,6 +574,15 @@
 							"sid": 487878384711496,
 							"parameters": {
 								"gamepad": "0",
+								"button": "d-pad-right"
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 525210985556931,
+							"parameters": {
+								"gamepad": "1",
 								"button": "d-pad-right"
 							}
 						}
@@ -599,7 +618,8 @@
 							}
 						}
 					],
-					"sid": 312650749961756
+					"sid": 312650749961756,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "comment",
@@ -614,6 +634,15 @@
 							"sid": 873722027254275,
 							"parameters": {
 								"gamepad": "0",
+								"button": "d-pad-left"
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 339893666630845,
+							"parameters": {
+								"gamepad": "1",
 								"button": "d-pad-left"
 							}
 						}
@@ -649,7 +678,8 @@
 							}
 						}
 					],
-					"sid": 572924296187023
+					"sid": 572924296187023,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "comment",
@@ -664,6 +694,15 @@
 							"sid": 667710040042796,
 							"parameters": {
 								"gamepad": "0",
+								"button": "d-pad-down"
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 849969375083020,
+							"parameters": {
+								"gamepad": "1",
 								"button": "d-pad-down"
 							}
 						}
@@ -691,7 +730,8 @@
 							}
 						}
 					],
-					"sid": 290974429368139
+					"sid": 290974429368139,
+					"isOrBlock": true
 				}
 			]
 		},
